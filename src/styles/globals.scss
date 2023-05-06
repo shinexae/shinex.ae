@@ -24,6 +24,10 @@
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   //   font-family: "Open Sans", sans-serif;
   background-color: #f6f5f1;
@@ -156,7 +160,7 @@ section.why-us .boxes .box p {
 a,
 button {
   margin-inline: auto;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
@@ -167,6 +171,7 @@ button {
   color: white;
   text-align: center;
   transition: all 0.5 ease-in-out;
+  width: fit-content;
 }
 
 a:hover,

@@ -16,7 +16,7 @@ const Footer = () => {
           <h2>Services</h2>
           <div className='services_footer flex flex-col gap-8 '>
             {servicesFooter.map((service, index) => (
-              <IconElement key={index} {...service} roundedIcon />
+              <IconElement footer key={index} {...service} roundedIcon />
             ))}
           </div>
         </div>
@@ -24,7 +24,7 @@ const Footer = () => {
           <h2>Contacts</h2>
           <div className='services_footer flex flex-col gap-8 '>
             {contactFooter.map((service, index) => (
-              <IconElement key={index} {...service} roundedIcon />
+              <IconElement footer key={index} {...service} roundedIcon />
             ))}
           </div>
         </div>

@@ -10,6 +10,7 @@ import WindowTinting from "@/components/homepage/WindowTinting";
 import AboutUs from "@/components/homepage/AboutUs";
 import CustomerReviews from "@/components/homepage/CustomerReviews";
 import Faq from "@/components/homepage/Faq";
+import { faq } from "@/lib/homepage";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
 
         <CustomerReviews />
 
-        <Faq />
+        <Faq homepage content={faq.polishing} />
       </div>
     </>
   );

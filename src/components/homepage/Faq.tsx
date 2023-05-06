@@ -1,19 +1,28 @@
+import Link from "next/link";
 import FaqItem from "../FaqItem";
-import { faq } from "@/lib/homepage";
 import { useState } from "react";
 
-const Faq = () => {
-  const [visibleQuestion, setVisibleQuestion] = useState(faq[0].question);
+const FaqGroup = ({ content, homepage }: any) => {
+  const [visibleQuestion, setVisibleQuestion] = useState(
+    content[0]?.question || ""
+  );
+
+  if (!content) return <></>;
+
   return (
-    <section className='customer !border-none'>
-      <h2 className='!text-start !text-[#331]'>FAQ`S</h2>
-      <ul className='max-w-[800px]'>
-        {faq.map((item, i) => (
+    <section className='customer !p-0 md:!p-8 !border-none'>
+      {homepage ? (
+        <h2 className='!text-start !text-secondary !mt-0'>FAQ`S</h2>
+      ) : (
+        <></>
+      )}
+      <ul className='max-w-[800px] mb-10'>
+        {content.map((item: any, i: any) => (
           <FaqItem
             key={i}
             {...item}
             onClick={() =>
-              setVisibleQuestion((prev) =>
+              setVisibleQuestion((prev: any) =>
                 prev === item.question ? "" : item.question
               )
             }
@@ -21,8 +30,13 @@ const Faq = () => {
           />
         ))}
       </ul>
+      {homepage ? (
+        <Link href='/faq'>Load more</Link>
+      ) : (
+        <Link href='/'>Go home</Link>
+      )}
     </section>
   );
 };
 
-export default Faq;
+export default FaqGroup;

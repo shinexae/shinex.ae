@@ -7,7 +7,7 @@ const ServiceElement = ({
   packages,
   setPackage,
 }: ServiceInterface) => (
-  <div className='box flex flex-col '>
+  <div id={title.replaceAll(" ", "-")} className='box flex flex-col'>
     <Image width={500} height={700} src={image} alt={title} />
     <div className='grow content flex flex-col gap-3'>
       <h3 className='uppercase'>{title}</h3>

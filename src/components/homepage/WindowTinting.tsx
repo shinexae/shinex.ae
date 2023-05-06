@@ -6,6 +6,14 @@ import info from "@/lib/companyInfo";
 const WindowTinting = () => {
   return (
     <section className='cont2 items-center gap-10'>
+      <div className='image'>
+        <Image
+          width={600}
+          height={800}
+          src='/images/window_tinting.webp'
+          alt='window_tinting'
+        />
+      </div>
       <div className='content2'>
         <h2>Residental Window Tinting</h2>
         <h3>Benifets of Tenting Your Home</h3>
@@ -20,14 +28,6 @@ const WindowTinting = () => {
           className='uppercase w-fit'>
           Book Now
         </a>
-      </div>
-      <div className='image'>
-        <Image
-          width={600}
-          height={800}
-          src='/images/window_tinting.webp'
-          alt='window_tinting'
-        />
       </div>
     </section>
   );

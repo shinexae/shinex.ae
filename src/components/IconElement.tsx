@@ -1,5 +1,6 @@
 import info from "@/lib/companyInfo";
 import Image from "next/image";
+import Link from "next/link";
 
 const IconElement = ({
   icon,
@@ -8,8 +9,13 @@ const IconElement = ({
   cta,
   hStyle,
   roundedIcon,
+  footer,
 }: IconInterface) => (
-  <div className='flex flex-col items-center gap-4 '>
+  <Link
+    href={title.split(" ")[1] ? `/#${title.split(" ")[1]}` : "#"}
+    className={`flex flex-col items-center gap-4 !bg-transparent ${
+      footer ? "" : "text-secondary"
+    }`}>
     <Image
       src={icon}
       width={48}
@@ -30,6 +36,6 @@ const IconElement = ({
         Book Now
       </a>
     ) : null}
-  </div>
+  </Link>
 );
 export default IconElement;
