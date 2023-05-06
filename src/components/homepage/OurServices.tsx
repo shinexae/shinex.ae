@@ -6,7 +6,7 @@ import { services } from "@/lib/homepage";
 const OurServices = () => {
   const [servicePackages, setServicePackages] = useState<any>({});
   return (
-    <section className='figure'>
+    <section className='figure' id='ourServices'>
       <h2>Our Services</h2>
       <div className='container'>
         {services.map((elem, index) => (

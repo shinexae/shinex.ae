@@ -2,7 +2,7 @@ import FaqGroup from "@/components/homepage/Faq";
 import { tabs } from "@/lib/homepage";
 import Head from "next/head";
 import { useState } from "react";
-import companyInfo from "@/lib/companyInfo";
+import site from "@/lib/companyInfo";
 
 const Faq = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -10,7 +10,7 @@ const Faq = () => {
     <>
       <Head>
         <title>
-          {`FAQ's`} | {companyInfo.companyName}
+          {`FAQ's`} | {site.name}
         </title>
       </Head>
 

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import companyInfo from "@/lib/companyInfo";
+import site from "@/lib/companyInfo";
 
 import WhyUs from "@/components/homepage/WhyUs";
 import OurServices from "@/components/homepage/OurServices";
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{companyInfo.companyName}</title>
+        <title>{site.title}</title>
       </Head>
 
       <div className='homepageContainer max-w-[1400px] mx-auto'>
@@ -34,7 +34,7 @@ export default function Home() {
 
         <CustomerReviews />
 
-        <Faq homepage content={faq.polishing} />
+        <Faq homepage content={faq.general.slice(0, 6)} />
       </div>
     </>
   );

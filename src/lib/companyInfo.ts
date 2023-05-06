@@ -1,6 +1,8 @@
-const info = {
-  companyName: "ShineX",
-  siteUrl: "https://shinex.ae",
+const site = {
+  name: "ShineX",
+  url: "https://shinex.ae",
+  title: "ShineX | Best Car washing service in Dubai",
+  description: "",
   social: {
     whatsapp: "https://wa.me/message/KJ2TGUEWJUU2O1",
     instagram: "https://instagram.com/shinex.ae",
@@ -10,4 +12,4 @@ const info = {
   },
 };
 
-export default info;
+export default site;

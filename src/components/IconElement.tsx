@@ -1,4 +1,4 @@
-import info from "@/lib/companyInfo";
+import site from "@/lib/companyInfo";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ const IconElement = ({
 }: IconInterface) => (
   <Link
     href={title.split(" ")[1] ? `/#${title.split(" ")[1]}` : "#"}
-    className={`flex flex-col items-center gap-4 !bg-transparent ${
+    className={`flex scale-100 hover:scale-100 flex-col items-center gap-4 !bg-transparent ${
       footer ? "" : "text-secondary"
     }`}>
     <Image
@@ -32,7 +32,7 @@ const IconElement = ({
       <p className=' text-sm opacity-80 text-center'>{description}</p>
     ) : null}
     {cta ? (
-      <a href={info.social.whatsapp} target='_blank' className='br uppercase'>
+      <a href={site.social.whatsapp} target='_blank' className='br uppercase'>
         Book Now
       </a>
     ) : null}

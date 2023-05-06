@@ -10,7 +10,7 @@ const FaqGroup = ({ content, homepage }: any) => {
   if (!content) return <></>;
 
   return (
-    <section className='customer !p-0 md:!p-8 !border-none'>
+    <section className='customer !p-0 md:!p-20 !border-none'>
       {homepage ? (
         <h2 className='!text-start !text-secondary !mt-0'>FAQ`S</h2>
       ) : (

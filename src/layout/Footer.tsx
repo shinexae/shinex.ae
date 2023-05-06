@@ -1,6 +1,6 @@
 import IconElement from "@/components/IconElement";
 import SocialLink from "@/components/SocialLink";
-import info from "@/lib/companyInfo";
+import site from "@/lib/companyInfo";
 import {
   contactFooter,
   servicesFooter,
@@ -47,8 +47,8 @@ const Footer = () => {
           ))}
         </div>
         <div className='logo'>
-          <a href={info.siteUrl}>
-            <Image width={300} height={300} src='/logo.jpg' alt='' />
+          <a href={site.url}>
+            <Image width={300} height={300} src='/logo.jpeg' alt='' />
           </a>
         </div>
       </div>

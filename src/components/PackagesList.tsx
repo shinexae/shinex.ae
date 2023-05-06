@@ -1,4 +1,4 @@
-import info from "@/lib/companyInfo";
+import site from "@/lib/companyInfo";
 import Image from "next/image";
 
 const PackagesList = ({
@@ -53,17 +53,17 @@ const ServicePackage = ({ title, menu, prices, type }: PackageProps) => (
       <></>
     )}
     <div className='button bb'>
-      <a href={info.social.whatsapp} target='_blank' className='br uppercase'>
+      <a href={site.social.whatsapp} target='_blank' className='br uppercase'>
         Book Now
       </a>
     </div>
     <div className='icons'>
       <div className='small'>
-        <Image width={100} height={50} src='/icons/car_sm.svg' alt='' />
+        <Image width={100} height={50} src='/icons/car_sm.webp' alt='' />
         <p className='text-[#fe0000] !font-bold'>{prices.sm} AED</p>
       </div>
       <div className='big'>
-        <Image width={100} height={50} src='/icons/car_lg.svg' alt='' />
+        <Image width={100} height={50} src='/icons/car_lg.jpg' alt='' />
         <p className='text-[#fe0000] !font-bold'>{prices.lg} AED</p>
       </div>
     </div>

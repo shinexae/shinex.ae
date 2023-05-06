@@ -25,7 +25,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -170,6 +170,17 @@ button {
   text-align: center;
   transition: all 0.5 ease-in-out;
   width: fit-content;
+}
+
+a.default {
+  display: inline;
+  font-size: 1rem;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: white;
+  text-align: start;
 }
 
 a:hover,

@@ -1,4 +1,4 @@
-import info from "@/lib/companyInfo";
+import site from "@/lib/companyInfo";
 import { mobileServicesContent } from "@/lib/homepage";
 import Image from "next/image";
 
@@ -19,7 +19,7 @@ const MobileServices = () => {
           {mobileServicesContent.subtitle}
         </p>
         <p className='pp opacity-75'>{mobileServicesContent.desciption}</p>
-        <a href={info.social.whatsapp} target='_blank' className='uppercase'>
+        <a href={site.social.whatsapp} target='_blank' className='uppercase'>
           {mobileServicesContent.btnText}
         </a>
       </div>

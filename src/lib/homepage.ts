@@ -1,4 +1,4 @@
-import info from "./companyInfo";
+import site from "./companyInfo";
 
 export const whyUsList: IconInterface[] = [
   {
@@ -114,27 +114,27 @@ export const socialMediaLinks: LinkProps[] = [
   {
     name: "whatsapp",
     image: "/icons/whatsapp.svg",
-    url: info.social.whatsapp,
+    url: site.social.whatsapp,
   },
   {
     name: "instagram",
     image: "/icons/instagram.svg",
-    url: info.social.instagram,
+    url: site.social.instagram,
   },
   {
     name: "facebook",
     image: "/icons/facebook.svg",
-    url: info.social.facebook,
+    url: site.social.facebook,
   },
   {
     name: "twitter",
     image: "/icons/twitter.svg",
-    url: info.social.twitter,
+    url: site.social.twitter,
   },
   {
     name: "email",
     image: "/icons/email.svg",
-    url: `mailto:${info.social.email}`,
+    url: `mailto:${site.social.email}`,
   },
 ];
 
@@ -169,6 +169,202 @@ export const contactFooter = [
 ];
 
 export const faq = {
+  general: [
+    {
+      question: "What is window film?",
+      answer: `
+Window film is a thin, multi-layered polyester material that incorporates the many different layers to control different properties, including Ultra-Violet (UV) light, heat, glare, and privacy. Window film comes in a variety of performance levels and shades.
+      `,
+    },
+    {
+      question: "What are the benefits of window film?",
+      answer: `
+
+The many benefits of window film include eye comfort, UV protection, aesthetics, and increased safety, privacy, and energy savings.
+      `,
+    },
+    {
+      question: "What do the different levels of film mean?",
+      answer: `
+Film percentages stand for light transmission, or the amount of light that is allowed through the film. The lower the percentage, the darker the film.
+      `,
+    },
+    {
+      question: "Is the tint applied on the outside of the window?",
+      answer: `
+
+No. In most cases, window film is installed on the inside of the glass. This allows for maximum durability. On vehicles, the window tint is hand-cut on the outside of the glass, then installed on the interior of the glass.
+      `,
+    },
+    {
+      question: "I just had my windows tinted, why do they look hazy?",
+      answer: `
+
+The moisture that remains between the film and the glass after installation can cause a hazy, streaky, blotchy appearance. It takes several days for the adhesive/film to completely cure. The remaining moisture will evaporate through the film; depending on the type of film, this process may take a couple of days, or even a couple of months. When the water evaporates completely, your windows should have excellent clarity.
+      `,
+    },
+    {
+      question:
+        "What should I use to clean my windows after I’ve had them tinted?",
+      answer: `
+
+After window film installation, wait a week before cleaning the inside of the window where the film was installed. After a week, use a window cleaner without ammonia and a soft cloth or rubber squeegee. We recommend foam cleaners because they do not streak, and are usually ammonia-free. Never scrape the film with any type of blade or clean your tinted windows with anything abrasive, as it will scratch the film.
+      `,
+    },
+    {
+      question: "What causes window film to turn purple?",
+      answer: `
+
+The window film used by Glass Tint USA has the technology to make film color stable, thus carrying a lifetime warranty that guarantees no color change. This means that our window films do not turn purple like the cheap films sold in other shops or auto parts stores. Please see our Lifetime Limited Warranty for more information.
+      `,
+    },
+    {
+      question: "If my window film is damaged, can it be fixed?",
+      answer: `
+
+Damaged window film cannot be repaired, but the damaged piece of film can be removed and the glass can be retinted.
+      `,
+    },
+    {
+      question: "Does window film prevent glass from breaking?",
+      answer: `
+
+No, window film does not prevent glass from breaking. Window film does increase the safety of the glass; due to a very aggressive adhesive, the film helps to hold the pieces of broken glass together. In the event the glass breaks, due to an auto accident, a person running into it, or an attempted break-in, the glass will shatter, but in most instances, the film will help keep the glass together.
+      `,
+    },
+    {
+      question: "Can window film increase safety and security?",
+      answer: `
+
+Yes, window film adds a degree of shatter resistance to the glass areas of your home, building, or vehicle. These films bond to glass and help hold dangerous glass fragments in place, should breakage occur due to accident, natural disaster, or illegal entry.
+      `,
+    },
+    {
+      question: "Does blocking UV rays help prevent fading and deterioration?",
+      answer: `
+
+Yes. The same sun that brightens a room’s interior can be detrimental to fabrics, furnishings, artwork, and rugs. Ultraviolet rays are the main cause of both fade and deterioration. Window films can screen out 99% of the damaging UV rays that can fade richly colored furniture, tapestries, and artwork. Heat and light also play a part in fading, but using window film to block nearly 100% of UV rays will increase the life of your personal property for years.
+      `,
+    },
+    {
+      question: "Can window film help with privacy?",
+      answer: `
+
+
+Yes. Window films give a clear view to the outside. Depending on the degree of privacy desired, you can select films that prevent others from looking in during the daytime.
+      `,
+    },
+    {
+      question: "How long does it take to tint my vehicle?",
+      answer: `
+
+The amount of time varies, depending on your type of vehicle. A complete car can take 2 to 4 hours. Full-sized trucks generally take between an hour and an hour and a half. A set of front doors usually only takes 30-45 minutes. If old aftermarket film has to be removed, that can add anywhere from 30 minutes to half a day.
+      `,
+    },
+    {
+      question: "Can window film reduce glare?",
+      answer: `
+
+Yes. Glare not only can cause eye fatigue, but it can also be dangerous when driving. It reduces the amount of light allowed through the film, therefore allowing you to see better and not stress your eyes.
+      `,
+    },
+    {
+      question: "Do I need to wait to roll my windows down?",
+      answer: `
+
+We recommend that you leave your vehicle windows rolled up for at least 24 hours after window film has been installed. This allows the film to cure and adhere to the glass before the window is moved.
+      `,
+    },
+    {
+      question: "Can window film be matched to vehicle factory window tint?",
+      answer: `
+
+In most cases yes, depending on how old the film is and whether or not a color stable film was used.
+      `,
+    },
+    {
+      question:
+        "Does old aftermarket window film need to be removed before installing new?",
+      answer: `
+
+Old film will need to be removed before installing new window film. It is always best to have the old film removed by a professional, as the rear defroster can be easily damaged. The process does add 2 – 4 hours of labor, and there is a charge for the removal. We recommend dropping your vehicle in the morning and let us call you when the job is completed.
+      `,
+    },
+    {
+      question:
+        "Can aftermarket window film be installed over factory window tint?",
+      answer: `
+
+As long as it is factory window tint, which is a color in the glass, then after market window film can be installed directly on the glass. Aftermarket window film has many more solar benefits than factory window tint. Aftermarket window film rejects 99% of ultraviolet rays and between 35%-60% of heat, depending on the film level used. Plus, adding aftermarket tint over factory tint can give you more privacy for storing personal items in the back of a vehicle.
+      `,
+    },
+    {
+      question:
+        "Will the film affect my rear defroster, or will my rear defroster affect the film?",
+      answer: `
+
+No, window film nor the car’s rear defroster will be affected.
+      `,
+    },
+    {
+      question: "Do I have to come to your location to have my vehicle tinted?",
+      answer: `
+
+Glass Tint USA only installs window film on vehicles inside our clean, air-conditioned facility. This way we have complete control over the environment we install window film in. This is how you receive the most quality job.
+      `,
+    },
+    {
+      question: "What is the legal limit of tint in Missouri?",
+      answer: `
+
+Missouri allows for a 35% light transmission on the front doors of any vehicle registered in Missouri. They allow any level of film behind the front doors and along the top of the front windshield, down to the AS-1 line. The percentage does vary by the state where your vehicle is registered.
+      `,
+    },
+    {
+      question:
+        "Can the front two doors be matched to the vehicle factory window tint?",
+      answer: `
+
+Yes. However, having this level of window film on front doors is not legal in Missouri. Vehicle factory window tint is usually 26%-15% film level. Missouri law states that the front door legal light transmission is 35%, which is lighter than the rear window of your factory tinted vehicle.
+      `,
+    },
+    {
+      question: "Can I darken vehicle factory window tint?",
+      answer: `
+
+
+Yes. As long as it is factory window tint, we can install window film directly on the glass. Factory window tint’s color is actually a pigment in the glass. Aftermarket window film also has many more solar benefits than factory window tint. Factory tint only rejects part of the UV rays, and only rejects a small amount of heat. Aftermarket window film rejects 99% of ultraviolet rays and between 35%-60% of heat, depending on the film level used. In addition to these benefits, darkening factory tinted glass will give you more privacy for storing your personal items in the back of the vehicle.
+      `,
+    },
+    {
+      question: "How does window film improve year-round comfort?",
+      answer: `
+
+Window film creates a more comfortable environment through consistent climate control by eliminating “cold wall” and “hot wall” problems. Rooms stay more comfortable in the summer and winter, be reducing “hot spots”, no matter where the sun is shining.
+      `,
+    },
+    {
+      question: "How does window film lower energy costs?",
+      answer: `
+
+In summer, window film reflects the hot sun, reducing heat gain and lowering air conditioning costs. In winter, window film retains heat — up to 15% — to reduce heating costs. This year-after-year reduction in energy costs can yield an impressive return on investment.
+      `,
+    },
+    {
+      question: "What is “One-Way Film”?",
+      answer: `
+
+“One-Way Film” is based on lighting, not the film itself. The side that is the brightest is the side that you can see. During the day when it is bright outside, you can see outside. At night, if you have lights on inside and no lighting outside, then it reverses.
+      `,
+    },
+    {
+      question: "Can window film be applied to any surface?",
+      answer: `
+
+No. The adhesive is meant to adhere to glass only. Window film should only be applied to glass surfaces that have a smooth finish. Plastics, Plexiglas, or Lexan contain too much oil for the film to adhere properly for a long period of time.
+      `,
+    },
+  ],
   polishing: [
     {
       question: "How long does it take to polish a car?",

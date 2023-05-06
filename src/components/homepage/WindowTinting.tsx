@@ -1,7 +1,7 @@
 import { windowTintingContent } from "@/lib/homepage";
 import Image from "next/image";
 import IconElement from "../IconElement";
-import info from "@/lib/companyInfo";
+import site from "@/lib/companyInfo";
 
 const WindowTinting = () => {
   return (
@@ -23,7 +23,7 @@ const WindowTinting = () => {
           ))}
         </div>
         <a
-          href={info.social.whatsapp}
+          href={site.social.whatsapp}
           target='_blank'
           className='uppercase w-fit mx-auto'>
           Book Now
