@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section className='cont3 items-center'>
+    <section className='cont3 lg:items-center'>
       <div className='image'>
         <Image
           width={600}

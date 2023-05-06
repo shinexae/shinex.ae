@@ -70,10 +70,6 @@ At ShineX, we use only the best equipment and products to
               loyalty program, you can enjoy great savings on your car wash
               services.
   `,
-    `
-  Thank you for choosing ShineX Car Wash. We look forward to
-              helping you keep your car looking its best!
-  `,
   ],
 };
 

@@ -36,7 +36,7 @@ body {
 
 @layer base {
   section {
-    @apply p-3 md:p-20 border-b-[2px] border-[#abababcb] mx-auto;
+    @apply p-3 md:p-4 lg:p-20 border-b-[2px] border-[#abababcb] mx-auto;
   }
 
   h2,
@@ -46,7 +46,7 @@ body {
     @apply uppercase font-normal;
   }
   h2 {
-    @apply mt-4 mb-8 text-3xl md:text-4xl;
+    @apply mt-4 font-extrabold font-sans mb-8 text-3xl md:text-4xl;
   }
 
   h3 {

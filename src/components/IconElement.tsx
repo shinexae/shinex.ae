@@ -23,7 +23,7 @@ const IconElement = ({
 
   return (
     <Container
-      className={`flex scale-100 hover:scale-100 flex-col items-center gap-4 !bg-transparent ${
+      className={`flex scale-100 hover:scale-100 flex-col items-center gap-2 lg:gap-4 !bg-transparent ${
         footer ? "!p-0" : "text-secondary"
       }`}>
       <Image
