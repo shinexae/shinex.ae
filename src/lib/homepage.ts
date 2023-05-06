@@ -140,16 +140,19 @@ export const socialMediaLinks: LinkProps[] = [
 
 export const servicesFooter = [
   {
-    title: "Car Tinting",
+    title: "Tinting",
     icon: "/icons/car_tinting.svg",
+    cta: "#Tinting",
   },
   {
-    title: "Car Polishing",
+    title: "Polishing",
     icon: "/icons/car_polishing.png",
+    cta: "#Polishing",
   },
   {
-    title: "Car Washing",
+    title: "Washing",
     icon: "/icons/car_washing.png",
+    cta: "#Washing",
   },
 ];
 
@@ -157,14 +160,17 @@ export const contactFooter = [
   {
     title: "+971-50-503-0056",
     icon: "/icons/phone.svg",
+    cta: "tel:+971-50-503-0056",
   },
   {
     title: "Shinex.ae@gmail.com",
     icon: "/icons/email_outlined.svg",
+    cta: "mailto:Shinex.ae@gmail.com",
   },
   {
     title: "Dubai City",
     icon: "/icons/location.svg",
+    cta: "https://www.google.com/maps/place/Burj+Khalifa+-+1+Sheikh+Mohammed+bin+Rashid+Blvd+-+Downtown+Dubai+-+Dubai+-+United+Arab+Emirates/@25.197197,55.2743764,15z/data=!4m6!3m5!1s0x3e5f43348a67e24b:0xff45e502e1ceb7e2!8m2!3d25.197197!4d55.2743764!16zL20vMDNjbjB2",
   },
 ];
 

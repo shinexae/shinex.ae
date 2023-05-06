@@ -6,6 +6,7 @@ interface IconInterface {
   hStyle?: string;
   roundedIcon?: boolean;
   footer?: boolean;
+  ctaWithoutBtn?: boolean;
 }
 
 interface ServiceInterface {

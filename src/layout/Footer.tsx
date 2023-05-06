@@ -11,7 +11,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className='pt-5'>
-      <div className='arrange max-w-[1400px] mx-auto'>
+      <div className='arrange px-4 max-w-[1400px] mx-auto'>
         <div className='column1'>
           <h2>Services</h2>
           <div className='services_footer flex flex-col gap-8 items-center'>

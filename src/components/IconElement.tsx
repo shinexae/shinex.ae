@@ -13,18 +13,18 @@ const IconElement = ({
   footer,
 }: IconInterface) => {
   const Container = (props: any) =>
-    cta ? (
-      <div {...props}>{props.children}</div>
-    ) : (
-      <a href={`/#${title.split(" ")[1]}`} {...props}>
+    footer ? (
+      <a href={cta} {...props}>
         {props.children}
       </a>
+    ) : (
+      <div {...props}>{props.children}</div>
     );
 
   return (
     <Container
       className={`flex scale-100 hover:scale-100 flex-col items-center gap-4 !bg-transparent ${
-        footer ? "" : "text-secondary"
+        footer ? "!p-0" : "text-secondary"
       }`}>
       <Image
         src={icon}
@@ -41,7 +41,7 @@ const IconElement = ({
       {description ? (
         <p className=' text-sm opacity-80 text-center'>{description}</p>
       ) : null}
-      {cta ? (
+      {!footer && cta ? (
         <a href={site.social.whatsapp} target='_blank' className='br uppercase'>
           Book Now
         </a>
