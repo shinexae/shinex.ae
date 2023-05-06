@@ -159,9 +159,7 @@ section.why-us .boxes .box p {
 
 a,
 button {
-  margin-inline: auto;
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
   align-items: center;
   font-size: 1.1rem;
   padding: 0.5em 1.8em;

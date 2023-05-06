@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shinex.ae
+
+# Sitemaps
+Sitemap: https://shinex.ae/sitemap.xml
+Sitemap: https://shinex.ae/sitemap-0.xml

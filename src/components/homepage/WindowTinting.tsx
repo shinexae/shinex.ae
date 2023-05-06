@@ -25,7 +25,7 @@ const WindowTinting = () => {
         <a
           href={info.social.whatsapp}
           target='_blank'
-          className='uppercase w-fit'>
+          className='uppercase w-fit mx-auto'>
           Book Now
         </a>
       </div>

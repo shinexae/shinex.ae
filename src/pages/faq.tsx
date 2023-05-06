@@ -30,7 +30,7 @@ const Faq = () => {
             </span>
           ))}
         </nav>
-        <hr className='border-primary/50' />
+        <hr className='border-primary/50 md:hidden' />
         <FaqGroup content={tabs[activeTab].content} />
       </section>
     </>
