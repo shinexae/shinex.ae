@@ -14,7 +14,7 @@ const IconElement = ({
 }: IconInterface) => {
   const Container = (props: any) =>
     cta ? (
-      <button {...props}>{props.children}</button>
+      <div {...props}>{props.children}</div>
     ) : (
       <a href={`/#${title.split(" ")[1]}`} {...props}>
         {props.children}
