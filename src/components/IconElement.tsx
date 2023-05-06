@@ -1,6 +1,7 @@
 import site from "@/lib/companyInfo";
 import Image from "next/image";
 import Link from "next/link";
+import { Component } from "react";
 
 const IconElement = ({
   icon,
@@ -10,32 +11,42 @@ const IconElement = ({
   hStyle,
   roundedIcon,
   footer,
-}: IconInterface) => (
-  <Link
-    href={title.split(" ")[1] ? `/#${title.split(" ")[1]}` : "#"}
-    className={`flex scale-100 hover:scale-100 flex-col items-center gap-4 !bg-transparent ${
-      footer ? "" : "text-secondary"
-    }`}>
-    <Image
-      src={icon}
-      width={48}
-      height={48}
-      alt={`${title} icon`}
-      className={
-        roundedIcon
-          ? "p-3 border-[1.5px] border-white rounded-full overflow-hidden"
-          : ""
-      }
-    />
-    <p className={`text-xl font-bold m-0 ${hStyle}`}>{title}</p>
-    {description ? (
-      <p className=' text-sm opacity-80 text-center'>{description}</p>
-    ) : null}
-    {cta ? (
-      <a href={site.social.whatsapp} target='_blank' className='br uppercase'>
-        Book Now
+}: IconInterface) => {
+  const Container = (props: any) =>
+    cta ? (
+      <button {...props}>{props.children}</button>
+    ) : (
+      <a href={`/#${title.split(" ")[1]}`} {...props}>
+        {props.children}
       </a>
-    ) : null}
-  </Link>
-);
+    );
+
+  return (
+    <Container
+      className={`flex scale-100 hover:scale-100 flex-col items-center gap-4 !bg-transparent ${
+        footer ? "" : "text-secondary"
+      }`}>
+      <Image
+        src={icon}
+        width={48}
+        height={48}
+        alt={`${title} icon`}
+        className={
+          roundedIcon
+            ? "p-3 border-[1.5px] border-white rounded-full overflow-hidden"
+            : ""
+        }
+      />
+      <p className={`text-xl font-bold m-0 ${hStyle}`}>{title}</p>
+      {description ? (
+        <p className=' text-sm opacity-80 text-center'>{description}</p>
+      ) : null}
+      {cta ? (
+        <a href={site.social.whatsapp} target='_blank' className='br uppercase'>
+          Book Now
+        </a>
+      ) : null}
+    </Container>
+  );
+};
 export default IconElement;
