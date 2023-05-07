@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 const ServiceElement = ({ image, title, description }: ServiceInterface) => {
-  const { push } = useRouter();
+  const { locale } = useRouter();
 
   return (
     <div
@@ -12,11 +13,9 @@ const ServiceElement = ({ image, title, description }: ServiceInterface) => {
       <div className='grow content flex flex-col gap-3 items-center !pt-10'>
         <h3 className='uppercase !font-bold font-sans !mb-0'>{title}</h3>
         <p className='grow'>{description}</p>
-        <button
-          className='button'
-          onClick={() => push(`/${title.toLowerCase()}`)}>
+        <Link href={`/${title.toLowerCase()}`} locale={locale}>
           {title} Pricing
-        </button>
+        </Link>
       </div>
     </div>
   );

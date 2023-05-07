@@ -29,7 +29,7 @@ export default function Home() {
         <title>{site.title}</title>
       </Head>
 
-      <div className='homepageContainer max-w-[1400px] mx-auto'>
+      <div className='homepageContainer max-w-[1400px] mx-auto relative z-0'>
         <WhyUs />
 
         <OurServices />

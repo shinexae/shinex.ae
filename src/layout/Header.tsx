@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header
-      className='w-screen relative md:max-h-auto'
+      className='w-screen relative md:max-h-auto z-50'
       style={{
         height: "calc(100vw / 1.78)",
       }}>
