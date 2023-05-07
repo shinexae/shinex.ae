@@ -4,7 +4,11 @@ import Link from "next/link";
 const Header = () => {
   return (
     <Link href='/#ourServices' className='default'>
-      <header className='w-screen h-[70vw] md:h-screen relative max-h-[70vw] md:max-h-auto'>
+      <header
+        className='w-screen relative md:max-h-auto'
+        style={{
+          height: "calc(100vw / 1.78)",
+        }}>
         <Image priority src='/images/hero.webp' alt='Hero image' fill />
       </header>
     </Link>

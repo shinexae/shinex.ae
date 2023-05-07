@@ -1,5 +1,7 @@
 import PackagesList from "@/components/PackagesList";
+import site from "@/lib/companyInfo";
 import { services } from "@/lib/homepage";
+import Head from "next/head";
 
 export const getStaticPaths = async () => {
   const paths = services.map((service) => ({
@@ -32,10 +34,17 @@ const ServicePage = ({
   servicePackages: ServiceInterface;
 }) => {
   return (
-    <PackagesList
-      title={servicePackages.title}
-      packages={servicePackages.packages}
-    />
+    <>
+      <Head>
+        <title>
+          {servicePackages.title} | {site.name}
+        </title>
+      </Head>
+      <PackagesList
+        title={servicePackages.title}
+        packages={servicePackages.packages}
+      />
+    </>
   );
 };
 

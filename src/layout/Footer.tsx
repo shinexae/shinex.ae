@@ -31,6 +31,7 @@ const Footer = () => {
       </div>
       <div className='location my-10 max-w-[1400px] mx-auto'>
         <iframe
+          title='ShineX location on google maps '
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21480.103074891787!2d55.282385119629296!3d25.202096898167987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2z2KjYsdisINiu2YTZitmB2Kk!5e0!3m2!1sar!2ssa!4v1683170337901!5m2!1sar!2ssa'
           className='border-none scale-[0.98] rounded-3xl shadow-2xl'
           allowFullScreen
@@ -47,8 +48,8 @@ const Footer = () => {
           ))}
         </div>
         <div className='logo'>
-          <a href={site.url}>
-            <Image width={300} height={300} src='/logo.jpeg' alt='' />
+          <a href={site.url} aria-label='website link'>
+            <Image width={300} height={300} src='/logo.jpeg' alt='ShineX' />
           </a>
         </div>
       </div>
