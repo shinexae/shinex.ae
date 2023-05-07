@@ -138,17 +138,17 @@ export const servicesFooter = [
   {
     title: "Tinting",
     icon: "/icons/car_tinting.svg",
-    cta: "#Tinting",
+    cta: "/tinting",
   },
   {
     title: "Polishing",
     icon: "/icons/car_polishing.png",
-    cta: "#Polishing",
+    cta: "/polishing",
   },
   {
     title: "Washing",
     icon: "/icons/car_washing.png",
-    cta: "#Washing",
+    cta: "/washing",
   },
 ];
 

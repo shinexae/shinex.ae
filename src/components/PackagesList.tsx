@@ -38,8 +38,8 @@ const PackagesList = ({
 export default PackagesList;
 
 const ServicePackage = ({ title, menu, prices, type }: PackageProps) => (
-  <div className='box p-4 flex flex-col gap-4'>
-    <h3>{title}</h3>
+  <div className='box p-4 flex flex-col gap-4 border-4 border-secondary'>
+    <h3 className='text-center font-bold'>{title}</h3>
     <ul className='!list-inside'>
       {menu.map((item, i) => (
         <li key={i}>{item}</li>

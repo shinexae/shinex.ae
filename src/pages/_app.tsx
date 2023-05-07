@@ -6,46 +6,14 @@ import { Roboto } from "next/font/google";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
 import site from "@/lib/companyInfo";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
-import useTranslation from "next-translate";
-import translate from "@vitalets/google-translate-api";
+import { appWithTranslation } from "next-i18next";
 
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700"],
   subsets: ["latin"],
 });
 
-export default function App({ Component, pageProps }: AppProps) {
-  // const { t, lang } = useTranslation("myPage");
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   // Automatically translate content if language is not the default language
-  //   if (lang !== router.defaultLocale) {
-  //     // Translate text using Google Cloud Translation API
-  //     translate(t("title"), { to: lang })
-  //       .then((res) => {
-  //         // Save translated text to language-specific translation file
-  //         const translations = {};
-  //         translations[lang] = {
-  //           ...t.all[lang],
-  //           title: res.text,
-  //         };
-  //         // Save translation file
-  //         router?.locales?.forEach((locale) => {
-  //           localStorage.setItem(
-  //             `next-i18n/${locale}/myPage.json`,
-  //             JSON.stringify(translations[locale])
-  //           );
-  //         });
-  //       })
-  //       .catch((err) => {
-  //         console.error(err);
-  //       });
-  //   }
-  // }, [lang, router.defaultLocale, t]);
-
+const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <style jsx global>{`
@@ -165,4 +133,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <GoogleAnalytics />
     </>
   );
-}
+};
+
+export default appWithTranslation(App);

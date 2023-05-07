@@ -1,5 +1,3 @@
-import { useState } from "react";
-import PackagesList from "../PackagesList";
 import ServiceElement from "../ServiceElement";
 import { services } from "@/lib/homepage";
 

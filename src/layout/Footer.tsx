@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className='pt-5'>
+    <footer className='pt-5' id='contacts'>
       <div className='arrange px-4 max-w-[1400px] mx-auto'>
         <div className='column1'>
           <h2>Services</h2>

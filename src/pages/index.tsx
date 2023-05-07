@@ -12,6 +12,16 @@ import CustomerReviews from "@/components/homepage/CustomerReviews";
 import Faq from "@/components/homepage/Faq";
 import { faq } from "@/lib/homepage";
 
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common", "home"])),
+    },
+  };
+}
+
 export default function Home() {
   return (
     <>

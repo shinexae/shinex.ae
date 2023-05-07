@@ -10,8 +10,8 @@ const FaqGroup = ({ content, homepage }: any) => {
   if (!content) return <></>;
 
   return (
-    <section className='customer !p-4 md:!p-20 !border-none'>
-      {homepage ? <h2 className='!text-start !mt-0'>FAQ`S</h2> : <></>}
+    <section id='faq' className='customer !p-4 md:!p-20 !border-none'>
+      {homepage ? <h2 className='!text-start !mt-0'>FAQs</h2> : <></>}
       <ul className='max-w-[800px] mb-10'>
         {content.map((item: any, i: any) => (
           <FaqItem

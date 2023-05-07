@@ -3,19 +3,21 @@ import { tabs } from "@/lib/homepage";
 import Head from "next/head";
 import { useState } from "react";
 import site from "@/lib/companyInfo";
+import { useTranslation } from "react-i18next";
 
 const Faq = () => {
   const [activeTab, setActiveTab] = useState(0);
+  const { t } = useTranslation("faq");
   return (
     <>
       <Head>
         <title>
-          {`FAQ's`} | {site.name}
+          {t("title")} | {site.name}
         </title>
       </Head>
 
       <section className='homepageContainer !border-none max-w-[1400px] mx-auto my-16'>
-        <h2 className='!text-start !text-secondary !mt-0'>FAQ`S</h2>
+        <h2 className='!text-start !text-secondary !mt-0'>{t("title")}</h2>
         <nav className='flex border-b border-gray-100 text-sm font-medium flex-col md:flex-row'>
           {tabs.map((tab, i) => (
             <span

@@ -1,5 +1,5 @@
 # 📦 file: ./simplelocalize.yml
-apiKey: YOUR_PROJECT_API_KEY
+apiKey: 748d704d708c8f1b1020569F5EFd8C1Ea3b3eeB450b30591
 downloadFormat: single-language-json
 downloadPath: ./locales/{lang}/{ns}.json
 
