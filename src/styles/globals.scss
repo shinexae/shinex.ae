@@ -29,14 +29,13 @@ html {
 }
 
 body {
-  //   font-family: "Open Sans", sans-serif;
   background-color: #f6f5f1;
   color: #331;
 }
 
 @layer base {
   section {
-    @apply p-3 md:p-4 lg:p-20 border-b-[2px] border-[#abababcb] mx-auto;
+    @apply p-3 md:px-4 md:py-14 lg:p-20 border-b-[2px] border-[#abababcb] mx-auto;
   }
 
   h2,
@@ -46,7 +45,7 @@ body {
     @apply uppercase font-normal;
   }
   h2 {
-    @apply mt-4 font-extrabold font-sans mb-8 text-3xl md:text-4xl;
+    @apply mt-4 text-primary font-extrabold font-sans mb-8 text-3xl md:text-4xl;
   }
 
   h3 {
@@ -650,7 +649,7 @@ footer .logo img {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin-top: -25px;
+  margin-top: -10px;
 }
 
 .wishing-list .container .box .icons .big img {

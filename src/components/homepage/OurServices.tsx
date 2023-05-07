@@ -4,28 +4,14 @@ import ServiceElement from "../ServiceElement";
 import { services } from "@/lib/homepage";
 
 const OurServices = () => {
-  const [servicePackages, setServicePackages] = useState<any>({});
   return (
     <section className='figure' id='ourServices'>
       <h2>Our Services</h2>
-      <div className='container'>
+      <div className='container !max-w-[100vw] px-2'>
         {services.map((elem, index) => (
-          <ServiceElement
-            key={index}
-            {...elem}
-            setPackage={setServicePackages}
-          />
+          <ServiceElement key={index} {...elem} />
         ))}
       </div>
-      {servicePackages.packages ? (
-        <PackagesList
-          title={servicePackages.title}
-          packages={servicePackages.packages}
-          setPackage={setServicePackages}
-        />
-      ) : (
-        <></>
-      )}
     </section>
   );
 };

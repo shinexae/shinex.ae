@@ -11,11 +11,7 @@ const FaqGroup = ({ content, homepage }: any) => {
 
   return (
     <section className='customer !p-4 md:!p-20 !border-none'>
-      {homepage ? (
-        <h2 className='!text-start !text-secondary !mt-0'>FAQ`S</h2>
-      ) : (
-        <></>
-      )}
+      {homepage ? <h2 className='!text-start !mt-0'>FAQ`S</h2> : <></>}
       <ul className='max-w-[800px] mb-10'>
         {content.map((item: any, i: any) => (
           <FaqItem

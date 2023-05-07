@@ -62,14 +62,14 @@ At ShineX, we use only the best equipment and products to
               car washes to full detailing packages, so you can choose the level
               of care that's right for your vehicle.
   `,
-    `
-   We know that your time is valuable, which is why we offer fast and
-              efficient service without compromising on quality. Our convenient
-              location and flexible hours make it easy for you to fit a car wash
-              into your busy schedule. Plus, with our competitive pricing and
-              loyalty program, you can enjoy great savings on your car wash
-              services.
-  `,
+    //   `
+    //  We know that your time is valuable, which is why we offer fast and
+    //             efficient service without compromising on quality. Our convenient
+    //             location and flexible hours make it easy for you to fit a car wash
+    //             into your busy schedule. Plus, with our competitive pricing and
+    //             loyalty program, you can enjoy great savings on your car wash
+    //             services.
+    // `,
   ],
 };
 

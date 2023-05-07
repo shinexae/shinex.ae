@@ -17,7 +17,7 @@ const WindowTinting = () => {
       <div className='content2'>
         <h2>Residental Window Tinting</h2>
         <h3>Benifets of Tenting Your Home</h3>
-        <div className='colt mt-4 lg:mt-20 mb-4 md:mb-10'>
+        <div className='colt mt-4 lg:mt-20 mb-4 md:mb-10 grid !grid-cols-3'>
           {windowTintingContent.map((elem, index) => (
             <IconElement key={index} {...elem} hStyle='text-[#fe0000]' />
           ))}

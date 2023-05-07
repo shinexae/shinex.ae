@@ -14,7 +14,6 @@ interface ServiceInterface {
   title: string;
   description: string;
   packages: any;
-  setPackage?: any;
 }
 
 interface LinkProps {
