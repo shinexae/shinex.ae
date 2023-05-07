@@ -11,9 +11,7 @@ const Faq = () => {
   return (
     <>
       <Head>
-        <title>
-          {t("title")} | {site.name}
-        </title>
+        <title>FAQs | {site.name}</title>
       </Head>
 
       <section className='homepageContainer !border-none max-w-[1400px] mx-auto my-16'>
