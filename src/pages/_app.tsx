@@ -24,14 +24,14 @@ const App = ({ Component, pageProps }: AppProps) => {
 
       <NextSeo
         title={site.url}
-        description={site.description}
+        description={site.description_en}
         canonical='https://www.canonical.ie/'
         openGraph={{
           type: "website",
           locale: "en_IE",
           url: site.url,
           title: site.url,
-          description: site.description,
+          description: site.description_en,
           images: [
             {
               url: site.url + "/logo.jpeg",

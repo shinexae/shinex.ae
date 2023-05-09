@@ -10,10 +10,10 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className='pt-5' id='contacts'>
+    <footer id='contacts' className='pt-5'>
       <div className='arrange px-4 max-w-[1400px] mx-auto'>
         <div className='column1'>
-          <h2>Services</h2>
+          <h2 className='text-white'>Services</h2>
           <div className='services_footer flex flex-col gap-8 items-center'>
             {servicesFooter.map((service, index) => (
               <IconElement footer key={index} {...service} roundedIcon />
@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='column2'>
-          <h2>Contacts</h2>
+          <h2 className='text-white'>Contacts</h2>
           <div className='services_footer flex flex-col gap-8 items-center'>
             {contactFooter.map((service, index) => (
               <IconElement footer key={index} {...service} roundedIcon />
