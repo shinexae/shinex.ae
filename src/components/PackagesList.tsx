@@ -58,13 +58,17 @@ const ServicePackage = ({ title, menu, prices, type }: PackageProps) => (
         Book Now
       </a>
     </div>
-    <div className='icons'>
-      <div className='small'>
-        <Image width={100} height={50} src='/icons/car_sm.webp' alt='' />
+    <div className='icons items-center mt-6'>
+      <div className='flex flex-col items-center'>
+        <div className='w-24 scale-[.8]'>
+          <Image width={80} height={96} src='/icons/car_sm.jpg' alt='' />
+        </div>
         <p className='text-[#fe0000] !font-bold'>{prices.sm}</p>
       </div>
-      <div className='big'>
-        <Image width={100} height={50} src='/icons/car_lg.jpg' alt='' />
+      <div className='flex flex-col items-center'>
+        <div className='w-24 scale-90 scale-y-100'>
+          <Image width={80} height={110} src='/icons/car_lg.jpg' alt='' />
+        </div>
         <p className='text-[#fe0000] !font-bold'>{prices.lg}</p>
       </div>
     </div>

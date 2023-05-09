@@ -3,12 +3,19 @@ import site from "@/lib/companyInfo";
 import { services } from "@/lib/homepage";
 import Head from "next/head";
 
-export const getStaticPaths = async () => {
-  const paths = services.map((service) => ({
-    params: {
-      serviceId: service.title.toLowerCase(),
-    },
-  }));
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
+export const getStaticPaths = async ({ locales }: { locales: string[] }) => {
+  const paths = services.flatMap((_service) => {
+    return locales.map((locale) => {
+      return {
+        params: {
+          serviceId: _service.title.toLowerCase(),
+        },
+        locale: locale,
+      };
+    });
+  });
 
   return {
     paths,
@@ -16,15 +23,22 @@ export const getStaticPaths = async () => {
   };
 };
 
-export const getStaticProps = async ({ params: { serviceId } }: any) => {
-  console.log(serviceId);
-
+export const getStaticProps = async ({
+  locale,
+  params: { serviceId },
+}: {
+  locale: string;
+  params: { serviceId: string };
+}) => {
   const servicePackages = services.find(
     (service) => service.title.toLowerCase() === serviceId
   );
 
   return {
-    props: { servicePackages },
+    props: {
+      servicePackages,
+      ...(await serverSideTranslations(locale, ["common", "washing"])),
+    },
   };
 };
 
@@ -33,12 +47,11 @@ const ServicePage = ({
 }: {
   servicePackages: ServiceInterface;
 }) => {
+  const title = `${servicePackages.title.toString()} | ${site.name}`;
   return (
     <>
       <Head>
-        <title>
-          {servicePackages.title} | {site.name}
-        </title>
+        <title>{title}</title>
       </Head>
       <PackagesList
         title={servicePackages.title}

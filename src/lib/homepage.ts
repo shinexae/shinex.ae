@@ -709,11 +709,11 @@ export const reviews = [
 
 export const tintingPackages = [
   {
-    title: "ROAD POW",
+    title: "ROAD POWER",
     menu: ["2 years warranty", "Heat insulation up to 65%", "Made in USA"],
     prices: {
-      sm: 40,
-      lg: 50,
+      sm: 308,
+      lg: 350,
     },
     type: "Normal",
   },
@@ -727,10 +727,25 @@ export const tintingPackages = [
       "Dark from outside",
     ],
     prices: {
-      sm: 70,
-      lg: 90,
+      sm: 550,
+      lg: 600,
     },
     type: "RECOMMENDED",
+  },
+  {
+    title: "NISMO COOL",
+    menu: [
+      "10 years warranty",
+      "Heat insulation up to 80%",
+      "Made in USA",
+      "Clear from Inside",
+      "Dark from outside",
+    ],
+    prices: {
+      sm: 850,
+      lg: 900,
+    },
+    type: "SPECIAL",
   },
   {
     title: "3M",
@@ -742,23 +757,8 @@ export const tintingPackages = [
       "Dark from outside",
     ],
     prices: {
-      sm: 130,
-      lg: 150,
-    },
-    type: "SPECIAL",
-  },
-  {
-    title: "Ceramic",
-    menu: [
-      "Lifetime warranty",
-      "Heat insulation up to 80%",
-      "Made in USA",
-      "Clear from Inside",
-      "Dark from outside",
-    ],
-    prices: {
-      sm: 250,
-      lg: 300,
+      sm: 1700,
+      lg: 1750,
     },
     type: "VIP",
   },
@@ -766,47 +766,39 @@ export const tintingPackages = [
 
 export const polishingPackages = [
   {
-    title: "(SHINING) PACKAGE",
+    title: "WAX PACKAGE",
+    menu: ["1 Shining WAX", "(1) Months warranty"],
+    prices: {
+      sm: 100,
+      lg: 120,
+    },
+  },
+  {
+    title: "STEP1 PACKAGE",
     menu: [
       "Only shining step",
       "Headlights polishing",
       "Restore color & luster",
       "Special treatment for (scratches & spots)",
-      "(3) Months warranty",
+      "(1) Months warranty",
     ],
     prices: {
-      sm: 130,
-      lg: 150,
+      sm: 200,
+      lg: 250,
     },
   },
   {
-    title: "(SCRATCHES) Package",
+    title: "STEP2 Package",
     menu: [
       "Only scratches step",
       "Headlights polishing",
       "Restore color & luster",
       "Special treatment for (scratches & spots)",
-      "(3) Months warranty",
+      "(1) Months warranty",
     ],
     prices: {
-      sm: 130,
-      lg: 150,
-    },
-  },
-  {
-    title: "POLISH Package",
-    menu: [
-      "Full car polishing",
-      "Headlights polishing",
-      "Restore color & luster",
-      "Special treatment for (shining)",
-      "Special treatment for (scratches & spots)",
-      "Professional polish with multiple steps",
-      "(6) Months warranty",
-    ],
-    prices: {
-      sm: 130,
-      lg: 150,
+      sm: 200,
+      lg: 250,
     },
   },
   {
@@ -823,8 +815,8 @@ export const polishingPackages = [
       "Inflate air in tyre's",
     ],
     prices: {
-      sm: 250,
-      lg: 300,
+      sm: 400,
+      lg: 500,
     },
   },
 ];

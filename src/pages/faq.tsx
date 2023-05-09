@@ -3,7 +3,17 @@ import { tabs } from "@/lib/homepage";
 import Head from "next/head";
 import { useState } from "react";
 import site from "@/lib/companyInfo";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
+
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common", "faq"])),
+    },
+  };
+}
 
 const Faq = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -21,7 +31,7 @@ const Faq = () => {
             <span
               key={i}
               onClick={() => setActiveTab(i)}
-              className={`font-semibold font-sans -mb-px border-b text-xl p-4 cursor-pointer ${
+              className={`font-bold font-sans -mb-px border-b text-xl p-4 cursor-pointer ${
                 i === activeTab
                   ? "text-primary border-current"
                   : "border-transparent hover:text-primary"
@@ -30,7 +40,6 @@ const Faq = () => {
             </span>
           ))}
         </nav>
-        <hr className='border-primary/50 md:hidden' />
         <FaqGroup content={tabs[activeTab].content} />
       </section>
     </>
