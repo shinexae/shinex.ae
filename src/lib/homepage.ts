@@ -108,11 +108,6 @@ export const windowTintingContent = [
 
 export const socialMediaLinks: LinkProps[] = [
   {
-    name: "whatsapp",
-    image: "/icons/whatsapp.svg",
-    url: site.social.whatsapp,
-  },
-  {
     name: "instagram",
     image: "/icons/instagram.svg",
     url: site.social.instagram,
@@ -121,6 +116,11 @@ export const socialMediaLinks: LinkProps[] = [
     name: "facebook",
     image: "/icons/facebook.svg",
     url: site.social.facebook,
+  },
+  {
+    name: "whatsapp",
+    image: "/icons/whatsapp.svg",
+    url: site.social.whatsapp,
   },
   {
     name: "twitter",
@@ -712,7 +712,7 @@ export const tintingPackages = [
     title: "ROAD POWER",
     menu: ["2 years warranty", "Heat insulation up to 65%", "Made in USA"],
     prices: {
-      sm: 308,
+      sm: 300,
       lg: 350,
     },
     type: "Normal",
@@ -766,7 +766,7 @@ export const tintingPackages = [
 
 export const polishingPackages = [
   {
-    title: "WAX PACKAGE",
+    title: "WAX",
     menu: ["1 Shining WAX", "(1) Months warranty"],
     prices: {
       sm: 100,
@@ -774,7 +774,7 @@ export const polishingPackages = [
     },
   },
   {
-    title: "STEP1 PACKAGE",
+    title: "STEP1",
     menu: [
       "Only shining step",
       "Headlights polishing",
@@ -788,7 +788,7 @@ export const polishingPackages = [
     },
   },
   {
-    title: "STEP2 Package",
+    title: "STEP2",
     menu: [
       "Only scratches step",
       "Headlights polishing",
@@ -802,7 +802,7 @@ export const polishingPackages = [
     },
   },
   {
-    title: "FULL Package",
+    title: "FULL",
     menu: [
       "Full car polishing",
       "Headlights polishing",
@@ -823,7 +823,7 @@ export const polishingPackages = [
 
 export const washingPackages = [
   {
-    title: "STANDARD PACKAGE",
+    title: "Standard",
     menu: [
       "Exterior Washing",
       "Interior Washing",
@@ -838,7 +838,7 @@ export const washingPackages = [
     },
   },
   {
-    title: "Premium Package",
+    title: "Premium",
     menu: [
       "Exterior Washing",
       "Interior Washing",
@@ -855,7 +855,7 @@ export const washingPackages = [
     },
   },
   {
-    title: "Gold Package",
+    title: "Gold",
     menu: [
       "Exterior Washing",
       "Interior Washing",
@@ -874,7 +874,7 @@ export const washingPackages = [
     },
   },
   {
-    title: "Platinum Package",
+    title: "Platinum",
     menu: [
       "Exterior Washing",
       "Interior Washing",
@@ -927,7 +927,7 @@ export const tabs = [
     content: faq.polishing,
   },
   {
-    title: "Auto Linting",
+    title: "Auto Tinting",
     content: faq.autoLinting,
   },
   {

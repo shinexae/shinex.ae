@@ -23,7 +23,7 @@ const PackagesList = ({
       <h2 id={title} className='relative text-3xl text-center mx-auto mb-6'>
         {title} Package
       </h2>
-      <div className='relative container m-0 max-w-[initial]'>
+      <div className='relative container m-0 max-w-[initial] grid grid-cols-4 gap-8'>
         {packages.map((package_, i) => (
           <ServicePackage key={i} {...package_} />
         ))}

@@ -20,6 +20,7 @@ interface LinkProps {
   name: string;
   url: string;
   image: string;
+  className?: string;
 }
 
 interface ReviewProps {

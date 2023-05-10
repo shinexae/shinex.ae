@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header
-      className='w-screen relative md:max-h-auto z-50'
+      className='w-screen relative md:max-h-auto z-50 mt-16'
       style={{
         height: "calc(100vw / 1.78)",
       }}>
@@ -46,7 +46,7 @@ const Header = () => {
             <Link
               href='/'
               locale={otherLang.symbol}
-              className='mr-0 ml-auto text-white bg-transparent hover:scale-100 hover:bg-white/10 rounded-lg w-fit cursor-pointer px-4 py-2 text-xl flex item-center gap-2'>
+              className='mr-0 ml-auto flex-col md:flex-row text-white bg-transparent md:scale-90 hover:scale-100 hover:bg-white/10 rounded-lg w-fit cursor-pointer px-4 py-2 text-xl flex item-center md:gap-2 scale-[.8] gap-0 '>
               <Image
                 priority
                 src={`/icons/${otherLang.icon || otherLang.label}.svg`}
@@ -55,9 +55,7 @@ const Header = () => {
                 width={30}
                 height={30}
               />
-              <span className='capitalize hidden md:inline'>
-                {otherLang.label}
-              </span>
+              <span className='capitalize'>{otherLang.label}</span>
             </Link>
           </li>
         </ul>
@@ -68,7 +66,7 @@ const Header = () => {
           src='/images/hero.webp'
           alt='Hero image'
           fill
-          className=' block mt-16 md:mt-0'
+          className=' block md:mt-0'
         />
       </Link>
     </header>
