@@ -70,8 +70,8 @@ const Footer = () => {
       <SocialLink
         name='whatsapp'
         image='/icons/whatsapp.svg'
-        url='site.social.whatsapp'
-        className='fixed bottom-6 right-6 scale-125 border-black border-2 border-solid p-0 !ml-3 hover:scale-[1.3]'
+        url={site.social.whatsapp}
+        className='!fixed !z-50 bottom-6 right-6 scale-125 border-black border-2 border-solid p-0 !ml-3 hover:scale-[1.3]'
       />
     </>
   );
