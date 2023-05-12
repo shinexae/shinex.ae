@@ -20,6 +20,7 @@ Service your car anywhere and anytime.
     facebook: "https://www.facebook.com/Shinex.ae",
     twitter: "https://twitter.com/shinexae",
     email: "shinex.ae@gmail.com",
+    phone: "+971505030056",
   },
 };
 

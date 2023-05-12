@@ -67,12 +67,20 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <SocialLink
-        name='whatsapp'
-        image='/icons/whatsapp.svg'
-        url={site.social.whatsapp}
-        className='!fixed !z-50 bottom-6 right-6 scale-125 border-black border-2 border-solid p-0 !ml-3 hover:scale-[1.3]'
-      />
+      <div className='connectWithUs'>
+        <SocialLink
+          name='phone'
+          image='/icons/phone.svg'
+          url={site.social.phone}
+          className='!fixed !z-50 bg-green-500 bottom-6 left-6 scale-125 border-2 border-solid p-0 !ml-3 hover:scale-[1.3]'
+        />
+        <SocialLink
+          name='whatsapp'
+          image='/icons/whatsapp.svg'
+          url={site.social.whatsapp}
+          className='!fixed !z-50 bottom-6 right-6 scale-125 border-2 border-solid p-0 !ml-3 hover:scale-[1.3]'
+        />
+      </div>
     </>
   );
 };
