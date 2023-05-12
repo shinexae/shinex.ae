@@ -1,3 +1,43 @@
 {
-  "title": "Polishing"
+    "polishingList" : "POLISHING PACKAGE",
+
+    "polishingList_box1_h2" : "(SHINING) PACKAGE",
+    "polishingList_box1_p1" : "Only shining step",
+    "polishingList_box1_p2" : "Headlights polishing",
+    "polishingList_box1_p3" : "Restore color & luster",
+    "polishingList_box1_p4" : "Special treatment for (scratches & spots)",
+    "polishingList_box1_p5" : "(3) Months warranty",
+    "polishingList_box1_btn" : "BOOK NOW",
+
+    "polishingList_box2_h2" : "(SCRATCHES) PACKAGE",
+    "polishingList_box2_p1" : "Only scratches step",
+    "polishingList_box2_p2" : "Headlights polishing",
+    "polishingList_box2_p3" : "Restore color & luster",
+    "polishingList_box2_p4" : "Special treatment for (scratches & spots)",
+    "polishingList_box2_p5" : "(3) Months warranty",
+    "polishingList_box2_btn" : "BOOK NOW",
+
+    "polishingList_box3_h2" : "POLISH PACKAGE",
+    "polishingList_box3_p1" : "Full car polishing",
+    "polishingList_box3_p2" : "Headlights polishing",
+    "polishingList_box3_p3" : "Restore color & luster",
+    "polishingList_box3_p4" : "Special treatment for (shining)",
+    "polishingList_box3_p5" : "Special treatment for (scratches & spots)",
+    "polishingList_box3_p6" : "Professional polish with multiple steps",
+    "polishingList_box3_p7" : "(6) Months warranty",
+    "polishingList_box3_btn" : "BOOK NOW",
+
+    "polishingList_box4_h2" : "FULL PACKAGE",
+    "polishingList_box4_p1" : "Full car polishing",
+    "polishingList_box4_p2" : "Headlights polishing",
+    "polishingList_box4_p3" : "Restore color & luster",
+    "polishingList_box4_p4" : "Special treatment for (shining)",
+    "polishingList_box4_p5" : "Special treatment for (scratches & spots)",
+    "polishingList_box4_p6" : "Professional polish with multiple steps",
+    "polishingList_box4_p7" : "(6) Months warranty",
+    "polishingList_box4_p8" : "Platinum package wash",
+    "polishingList_box4_p9" : "Inflate air in tyre's",
+    "polishingList_box4_btn" : "BOOK NOW",
+    
+    "polishingList_home_btn" : "Go Home"
 }

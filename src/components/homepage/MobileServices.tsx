@@ -1,8 +1,10 @@
 import site from "@/lib/companyInfo";
-import { mobileServicesContent } from "@/lib/homepage";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
+import CTA from "../CTA";
 
 const MobileServices = () => {
+  const { t } = useTranslation("home");
   return (
     <section className='cont items-center'>
       <div className='image'>
@@ -14,14 +16,12 @@ const MobileServices = () => {
         />
       </div>
       <div className='content'>
-        <h2 className='underline'>{mobileServicesContent.title}</h2>
+        <h2>{t("Mobile_Service")}</h2>
         <p className='pp text-4xl mb-3 uppercase opacity-85'>
-          {mobileServicesContent.subtitle}
+          {t("Mobile_P1")}
         </p>
-        <p className='pp opacity-75'>{mobileServicesContent.desciption}</p>
-        <a href={site.social.whatsapp} target='_blank' className='uppercase'>
-          {mobileServicesContent.btnText}
-        </a>
+        <p className='pp opacity-75'>{t("Mobile_P2")}</p>
+        <CTA />
       </div>
     </section>
   );

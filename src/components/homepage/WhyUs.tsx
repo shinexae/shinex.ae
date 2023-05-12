@@ -10,7 +10,7 @@ const WhyUs = () => {
       <h2>{t("whyUs")}</h2>
       <div className='boxes text-center flex justify-evenly flex-wrap gap-6'>
         {whyUsList.map((elem, index) => (
-          <IconElement key={index} {...elem} />
+          <IconElement key={index} {...elem} title={t(elem.title)} />
         ))}
       </div>
     </section>

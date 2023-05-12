@@ -1,3 +1,39 @@
 {
-  "title": "صبغ"
+    "tintingList" : "حزم التظليل",
+
+    "tintingList_box1_h2" : "الطريق الأسير",
+    "tintingList_box1_p1" : "سنتين ضمان",
+    "tintingList_box1_p2" : "عزل حراري حتى 65٪",
+    "tintingList_box1_p3" : "صنع فى أمريكا",
+    "tintingList_box1_type" : "العادي",
+    "tintingList_box1_btn" : "احجز الآن",
+
+    "tintingList_box2_h2" : "نانو سيراميك",
+    "tintingList_box2_p1" : "5 سنين ضمان",
+    "tintingList_box2_p2" : "عزل حراري حتى 80",
+    "tintingList_box2_p3" : "صنع فى أمريكا",
+    "tintingList_box2_p4" : "واضح من الداخل",
+    "tintingList_box2_p5" : "مظلم من الخارج",
+    "tintingList_box2_type" : "الموصى به",
+    "tintingList_box2_btn" : "احجز الآن",
+
+    "tintingList_box3_h2" : "3M",
+    "tintingList_box3_p1" : "10 سنين ضمان",
+    "tintingList_box3_p2" : "عزل حراري حتى 90",
+    "tintingList_box3_p3" : "صنع فى أمريكا",
+    "tintingList_box3_p4" : "واضح من الداخل",
+    "tintingList_box3_p5" : "مظلم من الخارج",
+    "tintingList_box3_type" : "المميز",
+    "tintingList_box3_btn" : "احجز الآن",
+
+    "tintingList_box4_h2" : "سيراميك",
+    "tintingList_box4_p1" : "ضمان مدى الحياة",
+    "tintingList_box4_p2" : "عزل حراري حتى 80",
+    "tintingList_box4_p3" : "صنع فى أمريكا",
+    "tintingList_box4_p4" : "واضح من الداخل",
+    "tintingList_box4_p5" : "مظلم من الخارج",
+    "tintingList_box4_type" : "كبار الشخصيات",
+    "tintingList_box4_btn" : "احجز الآن",
+    
+    "tintingList_home_btn" : "العودة للصفحة الرئيسية"
 }

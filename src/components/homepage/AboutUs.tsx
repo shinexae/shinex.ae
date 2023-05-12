@@ -1,7 +1,9 @@
 import { aboutSection } from "@/lib/homepage";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 const AboutUs = () => {
+  const { t } = useTranslation("home");
   return (
     <section className='cont3 lg:items-center'>
       <div className='image'>
@@ -13,10 +15,10 @@ const AboutUs = () => {
         />
       </div>
       <div className='content3'>
-        <h2>About Us</h2>
+        <h2>{t("AboutUs")}</h2>
         {aboutSection.paragraphs.map((par, i) => (
           <p key={i} className='pp'>
-            {par}
+            {t(par)}
           </p>
         ))}
       </div>

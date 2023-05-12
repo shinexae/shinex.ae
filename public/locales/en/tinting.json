@@ -1,3 +1,39 @@
 {
-  "title": "Tinting"
+    "tintingList" : "TINTING PACKAGE",
+
+    "tintingList_box1_h2" : "ROAD POW",
+    "tintingList_box1_p1" : "2 years warranty",
+    "tintingList_box1_p2" : "Heat insulation up to 65%",
+    "tintingList_box1_p3" : "Made in USA",
+    "tintingList_box1_type" : "Normal",
+    "tintingList_box1_btn" : "BOOK NOW",
+
+    "tintingList_box2_h2" : "NANO CERAMIC",
+    "tintingList_box2_p1" : "5 years warranty",
+    "tintingList_box2_p2" : "Heat insulation up to 80%",
+    "tintingList_box2_p3" : "Made in USA",
+    "tintingList_box2_p4" : "Clear from Inside",
+    "tintingList_box2_p5" : "Dark from outside",
+    "tintingList_box2_type" : "RECOMMENDED",
+    "tintingList_box2_btn" : "BOOK NOW",
+
+    "tintingList_box3_h2" : "3M",
+    "tintingList_box3_p1" : "10 years warranty",
+    "tintingList_box3_p2" : "Heat insulation up to 90%",
+    "tintingList_box3_p3" : "Made in USA",
+    "tintingList_box3_p4" : "Clear from Inside",
+    "tintingList_box3_p5" : "Dark from outside",
+    "tintingList_box3_type" : "SPECIAL",
+    "tintingList_box3_btn" : "BOOK NOW",
+
+    "tintingList_box4_h2" : "CERAMIC",
+    "tintingList_box4_p1" : "Lifetime warranty",
+    "tintingList_box4_p2" : "Heat insulation up to 80%",
+    "tintingList_box4_p3" : "Made in USA",
+    "tintingList_box4_p4" : "Clear from Inside",
+    "tintingList_box4_p5" : "Dark from outside",
+    "tintingList_box4_type" : "VIP",
+    "tintingList_box4_btn" : "BOOK NOW",
+    
+    "tintingList_home_btn" : "Go Home"
 }

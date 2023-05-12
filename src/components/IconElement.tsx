@@ -1,7 +1,6 @@
 import site from "@/lib/companyInfo";
 import Image from "next/image";
-import Link from "next/link";
-import { Component } from "react";
+import CTA from "./CTA";
 
 const IconElement = ({
   icon,
@@ -41,11 +40,7 @@ const IconElement = ({
       {description ? (
         <p className=' text-sm opacity-80 text-center'>{description}</p>
       ) : null}
-      {!footer && cta ? (
-        <a href={site.social.whatsapp} target='_blank' className='br uppercase'>
-          Book Now
-        </a>
-      ) : null}
+      {!footer && cta ? <CTA /> : null}
     </Container>
   );
 };

@@ -7,22 +7,30 @@ import {
   socialMediaLinks,
 } from "@/lib/homepage";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation("home");
   return (
     <>
       <footer id='contacts' className='pt-5 overflow-hidden'>
         <div className='arrange px-4 max-w-[1400px] mx-auto'>
           <div className='column1'>
-            <h2 className='text-white'>Services</h2>
+            <h2 className='text-white'>{t("services")}</h2>
             <div className='services_footer flex flex-col gap-8 items-center'>
               {servicesFooter.map((service, index) => (
-                <IconElement footer key={index} {...service} roundedIcon />
+                <IconElement
+                  footer
+                  key={index}
+                  {...service}
+                  roundedIcon
+                  title={t(service.title)}
+                />
               ))}
             </div>
           </div>
           <div className='column2'>
-            <h2 className='text-white'>Contacts</h2>
+            <h2 className='text-white'>{t("contacts_nav")}</h2>
             <div className='services_footer flex flex-col gap-8 items-center'>
               {contactFooter.map((service, index) => (
                 <IconElement footer key={index} {...service} roundedIcon />
@@ -41,9 +49,7 @@ const Footer = () => {
         </div>
         <div className='contact-us flex flex-col items-center pt-10 max-w-[1400px] mx-auto'>
           <div className='text'>
-            <h2 className='capitalize font-bold text-4xl'>
-              Contact Us With A Click!
-            </h2>
+            <h2 className='capitalize font-bold text-4xl'>{t("ContactUs")}</h2>
           </div>
           <div className='images mt-14 gap-4'>
             {socialMediaLinks.map((link, index) => (

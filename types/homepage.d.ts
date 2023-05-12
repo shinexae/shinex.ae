@@ -14,6 +14,7 @@ interface ServiceInterface {
   title: string;
   description: string;
   packages: any;
+  ctaText?: string;
 }
 
 interface LinkProps {
