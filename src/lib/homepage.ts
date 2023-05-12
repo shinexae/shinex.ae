@@ -216,6 +216,7 @@ export const services: ServiceInterface[] = [
       "Automotive Window tints/film are an absolute necessity for every Pakistani car owner. The deduction of heat by a good tint drastically improves the comfort of a vehicle. Apart from the heat, tints come in a variety of shades ranging from clear to dark. So if one wanted privacy with the heat control they could opt for either a dark of clear shade.",
     image: "/images/car_tenting.webp",
     packages: tintingPackages,
+    url: "/tinting",
   },
   {
     title: "polishing",
@@ -223,6 +224,7 @@ export const services: ServiceInterface[] = [
       "It is essential to keep the vehicle clean through car detailing services in Dubai to ensure health safety of the passengers. The car detailing services helps us in keeping our image positive along with removing health risks that a dirty car poses to our lives. Driving a spotless car also helps us in maintaining a pleasant image in front of others.",
     image: "/images/car_polishing.webp",
     packages: polishingPackages,
+    url: "/polishing",
   },
   {
     title: "washing",
@@ -230,6 +232,7 @@ export const services: ServiceInterface[] = [
       "LA professional car wash takes care of all of your car's parts what you can and can not see. With innovative, agile, and comprehensive car wash services, we will bring you back to the memory of your first day with the car. And the best part? Calling us would be very convenient because we'll bring everything to you, so you can go about your daily life while your car gets cleaned at a location that's suitable for you.",
     image: "/images/car_washing.webp",
     packages: washingPackages,
+    url: "/washing",
   },
 ];
 

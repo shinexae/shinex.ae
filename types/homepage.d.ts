@@ -12,6 +12,7 @@ interface IconInterface {
 interface ServiceInterface {
   image: string;
   title: string;
+  url: string;
   description: string;
   packages: any;
   ctaText?: string;
