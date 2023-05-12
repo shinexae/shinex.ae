@@ -16,7 +16,7 @@ const Footer = () => {
       <footer id='contacts' className='pt-5 overflow-hidden'>
         <div className='arrange px-4 max-w-[1400px] mx-auto'>
           <div className='column1'>
-            <h2 className='text-white'>{t("services")}</h2>
+            <h2 className='text-white'>{t("services_nav")}</h2>
             <div className='services_footer flex flex-col gap-8 items-center'>
               {servicesFooter.map((service, index) => (
                 <IconElement
@@ -77,7 +77,7 @@ const Footer = () => {
         <SocialLink
           name='phone'
           image='/icons/phone.svg'
-          url={site.social.phone}
+          url={"tel:" + site.social.phone}
           className='!fixed !z-50 bg-green-500 bottom-6 left-6 scale-125 border-2 border-solid p-0 !ml-3 hover:scale-[1.3]'
         />
         <SocialLink
