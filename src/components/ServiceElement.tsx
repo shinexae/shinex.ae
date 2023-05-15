@@ -19,7 +19,7 @@ const ServiceElement = ({
       <div className='grow content flex flex-col gap-3 items-center !pt-10'>
         <h3 className='uppercase !font-bold font-sans !mb-0'>{title}</h3>
         <p className='grow'>{description}</p>
-        <Link href={`/${url}`} locale={locale} className='capitalize'>
+        <Link href={url} locale={locale} className='capitalize'>
           {ctaText}
         </Link>
       </div>

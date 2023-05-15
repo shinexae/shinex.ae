@@ -2,8 +2,8 @@ import site from "./companyInfo";
 
 export const tintingPackages = [
   {
-    title: "ROAD POWER",
-    menu: ["box1_p1", "box1_p2", "box1_p3"],
+    title: "tintingList",
+    menu: ["2 years warranty", "Heat insulation up to 65%", "Made in USA"],
     prices: {
       sm: 300,
       lg: 350,
@@ -12,8 +12,13 @@ export const tintingPackages = [
   },
   {
     title: "Nano CERAMIC",
-    menu: ["box2_p1", "box2_p2", "box2_p3", "box2_p4", "box2_p5"],
-
+    menu: [
+      "5 years warranty",
+      "Heat insulation up to 80%",
+      "Made in USA",
+      "Clear from Inside",
+      "Dark from outside",
+    ],
     prices: {
       sm: 550,
       lg: 600,
@@ -22,8 +27,13 @@ export const tintingPackages = [
   },
   {
     title: "NISMO COOL",
-    menu: ["box3_p1", "box3_p2", "box3_p3", "box3_p4", "box3_p5"],
-
+    menu: [
+      "10 years warranty",
+      "Heat insulation up to 80%",
+      "Made in USA",
+      "Clear from Inside",
+      "Dark from outside",
+    ],
     prices: {
       sm: 850,
       lg: 900,
@@ -32,8 +42,13 @@ export const tintingPackages = [
   },
   {
     title: "3M",
-    menu: ["box4_p1", "box4_p2", "box4_p3", "box4_p4", "box4_p5"],
-
+    menu: [
+      "10 years warranty",
+      "Heat insulation up to 90%",
+      "Made in USA",
+      "Clear from Inside",
+      "Dark from outside",
+    ],
     prices: {
       sm: 1700,
       lg: 1750,

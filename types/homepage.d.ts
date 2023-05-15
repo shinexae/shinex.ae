@@ -33,6 +33,7 @@ interface ReviewProps {
 }
 
 interface PackageProps {
+  id: number;
   title: string;
   menu: string[];
   prices: {

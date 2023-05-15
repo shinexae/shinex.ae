@@ -37,7 +37,7 @@ export const getStaticProps = async ({
   return {
     props: {
       servicePackages,
-      ...(await serverSideTranslations(locale, ["common", "washing"])),
+      ...(await serverSideTranslations(locale, ["common", "home", serviceId])),
     },
   };
 };

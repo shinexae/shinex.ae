@@ -5,7 +5,7 @@ import { useMemo } from "react";
 import { useTranslation } from "next-i18next";
 
 const Header = () => {
-  const { locale } = useRouter();
+  const { locale, pathname, asPath, push, reload, events } = useRouter();
 
   const otherLang = useMemo(
     () =>
@@ -14,6 +14,14 @@ const Header = () => {
         : { label: "english", symbol: "en" },
     [locale]
   );
+
+  const handleChangeLanguage = (lang: string) => {
+    push(pathname, asPath, { locale: lang });
+
+    // events.on("routeChangeComplete", () => {
+    //   reload();
+    // });
+  };
 
   const { t } = useTranslation("home");
 
@@ -53,9 +61,8 @@ const Header = () => {
             className={`
               grow
           `}>
-            <Link
-              href='/'
-              locale={otherLang.symbol}
+            <button
+              onClick={() => handleChangeLanguage(otherLang.symbol)}
               className={`${
                 locale === "ar" ? "ml-0 mr-auto" : "mr-0 ml-auto"
               } flex-col md:flex-row text-white bg-transparent md:scale-90 hover:scale-100 hover:bg-white/10 rounded-lg w-fit cursor-pointer px-4 py-2 text-xl flex item-center md:gap-2 scale-[.8] gap-0 `}>
@@ -68,7 +75,7 @@ const Header = () => {
                 height={30}
               />
               <span className='capitalize'>{otherLang.label}</span>
-            </Link>
+            </button>
           </li>
         </ul>
       </nav>
