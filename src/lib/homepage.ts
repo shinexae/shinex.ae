@@ -45,7 +45,7 @@ export const tintingPackages = [
 export const polishingPackages = [
   {
     title: "WAX",
-    menu: ["1 Shining WAX", "(1) Months warranty"],
+    menu: ["box1_p1", "box1_p2"],
     prices: {
       sm: 100,
       lg: 120,
@@ -53,13 +53,7 @@ export const polishingPackages = [
   },
   {
     title: "STEP1",
-    menu: [
-      "Only shining step",
-      "Headlights polishing",
-      "Restore color & luster",
-      "Special treatment for (scratches & spots)",
-      "(1) Months warranty",
-    ],
+    menu: ["box2_p1", "box2_p2", "box2_p3", "box2_p4", "box2_p5"],
     prices: {
       sm: 200,
       lg: 250,
@@ -67,13 +61,7 @@ export const polishingPackages = [
   },
   {
     title: "STEP2",
-    menu: [
-      "Only scratches step",
-      "Headlights polishing",
-      "Restore color & luster",
-      "Special treatment for (scratches & spots)",
-      "(1) Months warranty",
-    ],
+    menu: ["box3_p1", "box3_p2", "box3_p3", "box3_p4", "box3_p5"],
     prices: {
       sm: 200,
       lg: 250,
@@ -82,16 +70,17 @@ export const polishingPackages = [
   {
     title: "FULL",
     menu: [
-      "Full car polishing",
-      "Headlights polishing",
-      "Restore color & luster",
-      "Special treatment for (shining)",
-      "Special treatment for (scratches & spots)",
-      "Professional polish with multiple steps",
-      "(6) Months warranty",
-      "Platinum package wash",
-      "Inflate air in tyre's",
+      "box4_p1",
+      "box4_p2",
+      "box4_p3",
+      "box4_p4",
+      "box4_p5",
+      "box4_p6",
+      "box4_p7",
+      "box4_p8",
+      "box4_p9",
     ],
+
     prices: {
       sm: 400,
       lg: 500,
@@ -102,14 +91,8 @@ export const polishingPackages = [
 export const washingPackages = [
   {
     title: "Standard",
-    menu: [
-      "Exterior Washing",
-      "Interior Washing",
-      "Tyre`s & Rims Polishing",
-      "Sanitizing, Perfuming & Drying",
-      "Cleaning The A/C Slots",
-      "Interior Polishing",
-    ],
+    menu: [1, 2, 3, 4, 5],
+
     prices: {
       sm: 40,
       lg: 50,

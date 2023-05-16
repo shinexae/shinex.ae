@@ -35,8 +35,8 @@ const PackagesList = ({
             key={i}
             {...package_}
             title={t(`box${i + 1}_h2`)}
-            menu={package_.menu.map((item) => t(item))}
-            type={t(`box${i + 1}_type`) || ""}
+            menu={package_.menu.map((item, i2) => t(`box${i + 1}_p${i2 + 1}`))}
+            type={package_.type ? t(`box${i + 1}_type`) || "" : ""}
           />
         ))}
       </div>
