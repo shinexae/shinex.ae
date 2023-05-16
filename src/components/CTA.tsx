@@ -3,7 +3,7 @@ import React from "react";
 import { useTranslation } from "next-i18next";
 
 const CTA = () => {
-  const { t } = useTranslation("home");
+  const { t } = useTranslation("common");
   return (
     <a href={site.social.whatsapp} target='_blank' className='uppercase'>
       {t("cta")}

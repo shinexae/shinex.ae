@@ -23,5 +23,4 @@ Service your car anywhere and anytime.
     phone: "+971505030056",
   },
 };
-
 export default site;

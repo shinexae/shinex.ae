@@ -295,19 +295,12 @@ section.cont .content {
 @media (max-width: 767px) {
   section.cont .content {
     flex: none;
-    border-bottom: 1px solid #ddd;
   }
 }
 
 @media (max-width: 767px) {
   section.cont .content {
     flex: none;
-  }
-}
-
-@media (max-width: 767px) {
-  section.cont2 .content2 {
-    border-bottom: 1px solid #ddd;
   }
 }
 

@@ -10,6 +10,7 @@ const FaqGroup = ({ content, homepage }: any) => {
   );
 
   const { t } = useTranslation("faq");
+  const { t: t_common } = useTranslation("common");
   const { locale } = useRouter();
 
   if (!content) return <></>;
@@ -37,9 +38,9 @@ const FaqGroup = ({ content, homepage }: any) => {
         ))}
       </ul>
       {homepage ? (
-        <Link href='/faq'>{t("loadMore")}</Link>
+        <Link href='/faq'>{t_common("loadMore")}</Link>
       ) : (
-        <Link href='/'>{t("goHome")}</Link>
+        <Link href='/'>{t_common("goHome")}</Link>
       )}
     </section>
   );
