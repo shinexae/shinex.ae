@@ -37,7 +37,7 @@ const CustomerReview = ({ title, stars, description, author }: ReviewProps) => {
         ))}
       </p>
       <p className='opacity-70 text-xl font-[300]'>{description}</p>
-      <p className='text-2xl mt-3 opacity-70'>- {author}</p>
+      <p className='text-2xl mt-3 opacity-70'>{author}</p>
       <hr className='border-[2px] opacity-60 mt-6' />
     </div>
   );

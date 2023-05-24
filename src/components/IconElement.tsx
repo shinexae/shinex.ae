@@ -1,6 +1,8 @@
 import site from "@/lib/companyInfo";
 import Image from "next/image";
 import CTA from "./CTA";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const IconElement = ({
   icon,
@@ -11,11 +13,13 @@ const IconElement = ({
   roundedIcon,
   footer,
 }: IconInterface) => {
+  const { locale } = useRouter();
+
   const Container = (props: any) =>
     footer ? (
-      <a href={cta} {...props}>
+      <Link locale={locale} href={cta} {...props}>
         {props.children}
-      </a>
+      </Link>
     ) : (
       <div {...props}>{props.children}</div>
     );

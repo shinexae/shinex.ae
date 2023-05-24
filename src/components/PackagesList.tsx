@@ -16,12 +16,6 @@ const PackagesList = ({
   const { t } = useTranslation(title);
   const { t: t_common } = useTranslation("common");
 
-  useEffect(() => {
-    setTimeout(() => {
-      location.href = "#";
-      location.href = `#${title}`;
-    }, 1000);
-  });
   return (
     <div
       className='relative z-10 wishing-list my-10 !p-0'
