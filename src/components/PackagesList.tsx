@@ -67,7 +67,7 @@ const ServicePackage = ({ title, menu, prices, type }: PackageProps) => {
           {t("cta")}
         </a>
       </div>
-      <div className='icons items-center mt-6'>
+      <div className='icons flex justify-center items-center mt-6'>
         <div className='flex flex-col items-center'>
           <div className='w-24 scale-[.8]'>
             <Image width={80} height={96} src='/icons/car_sm.jpg' alt='' />

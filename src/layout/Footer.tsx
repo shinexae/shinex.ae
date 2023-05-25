@@ -8,9 +8,11 @@ import {
 } from "@/lib/homepage";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 const Footer = () => {
   const { t } = useTranslation("home");
+  const { locale } = useRouter();
   return (
     <>
       <footer id='contacts' className='pt-5 overflow-hidden'>
@@ -49,7 +51,13 @@ const Footer = () => {
         </div>
         <div className='contact-us flex flex-col items-center pt-10 max-w-[1400px] mx-auto'>
           <div className='text'>
-            <h2 className='capitalize font-bold text-4xl'>{t("ContactUs")}</h2>
+            <h2
+              className='capitalize font-bold text-4xl'
+              style={{
+                direction: locale === "ar" ? "rtl" : "ltr",
+              }}>
+              {t("ContactUs")}
+            </h2>
           </div>
           <div className='images mt-14 gap-4'>
             {socialMediaLinks.map((link, index) => (
@@ -58,7 +66,7 @@ const Footer = () => {
                 {...link}
                 className={
                   index === Math.floor(socialMediaLinks.length / 2)
-                    ? "scale-125 border-black border-2 border-solid p-0 !ml-3 hover:scale-[1.3]"
+                    ? "scale-125 p-0 !ml-3 hover:scale-[1.3]"
                     : ""
                 }
               />
