@@ -47,7 +47,7 @@ const ServicePackage = ({ title, menu, prices, type }: PackageProps) => {
   const { t } = useTranslation("common");
 
   return (
-    <div className='box p-4 flex flex-col gap-4 border-4 border-secondary'>
+    <div className='box p-4 flex flex-col items-center gap-4 border-4 border-secondary'>
       <h3 className='text-center font-bold'>{title}</h3>
       <ul className='!list-inside'>
         {menu.map((item, i) => (
@@ -67,7 +67,7 @@ const ServicePackage = ({ title, menu, prices, type }: PackageProps) => {
           {t("cta")}
         </a>
       </div>
-      <div className='icons flex justify-center items-center mt-6'>
+      <div className='icons flex justify-center items-center mx-auto mt-6'>
         <div className='flex flex-col items-center'>
           <div className='w-24 scale-[.8]'>
             <Image width={80} height={96} src='/icons/car_sm.jpg' alt='' />

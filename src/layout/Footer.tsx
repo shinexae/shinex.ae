@@ -64,11 +64,11 @@ const Footer = () => {
               <SocialLink
                 key={index}
                 {...link}
-                className={
-                  index === Math.floor(socialMediaLinks.length / 2)
-                    ? "scale-125 p-0 !ml-3 hover:scale-[1.3]"
-                    : ""
-                }
+                // className={
+                //   index === Math.floor(socialMediaLinks.length / 2)
+                //     ? "scale-125 p-0 !ml-3 hover:scale-[1.3]"
+                //     : ""
+                // }
               />
             ))}
           </div>
