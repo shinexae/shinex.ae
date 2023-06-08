@@ -1,24 +1,22 @@
 {
   "title": "POLISHING PACKAGES",
-
   "box1_h2": "WAX",
   "box1_p1": "1 Shining WAX",
   "box1_p2": "(1) Months warranty",
-
   "box2_h2": "STEP1",
   "box2_p1": "Only shining step",
   "box2_p2": "Headlights polishing",
   "box2_p3": "Restore color & luster",
   "box2_p4": "Special treatment for (scratches & spots)",
   "box2_p5": "(1) Months warranty",
-
   "box3_h2": "STEP2",
   "box3_p1": "Only scratches step",
   "box3_p2": "Headlights polishing",
   "box3_p3": "Restore color & luster",
-  "box3_p4": "Special treatment for (scratches & spots)",
-  "box3_p5": "(1) Months warranty",
-
+  "box3_p4": "Special treatment for (shining)",
+  "box3_p5": "Special treatment for (scratches & spots)",
+  "box3_p6": "Professional polish with multiple steps",
+  "box3_p7": "(3) months guaranty",
   "box4_h2": "FULL",
   "box4_p1": "Full car polishing",
   "box4_p2": "Headlights polishing",
@@ -29,6 +27,5 @@
   "box4_p7": "(6) Months warranty",
   "box4_p8": "Platinum package wash",
   "box4_p9": "Inflate air in tyre's",
-
   "home_btn": "Go Home"
 }

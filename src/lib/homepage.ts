@@ -53,7 +53,7 @@ export const polishingPackages = [
   },
   {
     title: "STEP1",
-    menu: ["box2_p1", "box2_p2", "box2_p3", "box2_p4", "box2_p5", "box2_p6"],
+    menu: ["box2_p1", "box2_p2", "box2_p3", "box2_p4", "box2_p5"],
     prices: {
       sm: 200,
       lg: 250,
@@ -61,7 +61,7 @@ export const polishingPackages = [
   },
   {
     title: "STEP2",
-    menu: ["box3_p1", "box3_p2", "box3_p3", "box3_p4", "box3_p5"],
+    menu: ["box3_p1", "box3_p2", "box3_p3", "box3_p4", "box3_p5", "box4_p6"],
     prices: {
       sm: 200,
       lg: 250,
