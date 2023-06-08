@@ -1,13 +1,13 @@
 const site = {
   name: "ShineX",
   url: "https://shinex.ae",
-  title: "ShineX | Best Car washing service in Dubai",
+  title: "Shinex best Tinting/Polishing/Washing services in Dubai",
   description_en: `
-We provide the best online car services (car shading, car polishing, car washing) our team of professionals make sure to provide you with quality services feel free to contact us for more information,
-Service your car anywhere and anytime.
+    Shinex is a mobile fleet that provides high quality vehicle services to your doorstep. Tinting/Polishing/Washing, Requesting a mobile team is a convenient way to keep your vehicle in top condition With us you can specify the time and place to service your vehicle.
   `,
-  description_ar:
-    "نحن نقدم أفضل خدمات السيارات عبر الإنترنت (تظليل السيارات ، بوليش السيارات ، غسيل السيارات) يتأكد فريقنا من المحترفين من تزويدك بخدمات عالية الجودة لا تتردد في الاتصال بنا للحصول على مزيد من المعلومات ، خدمات سيارتك في أي مكان وفي أي وقت",
+  description_ar: `
+    شاينكس هو أسطول متنقل يقدم خدمات مركبات عالية الجودة إلى عتبة داركم. التظليل / التلميع / الغسيل يعد طلب فريق متنقل وسيلة ملائمة للحفاظ على سيارتك في أفضل حالة معنا يمكنك تحديد الوقت والمكان لصيانة سيارتك.
+  `,
   keywords_en: `
   #Cartint #carpolish #carwash #cardetailing #CarShampoo  #mobileservice #autocare #residentialwindowtinting #residentialtint #windowtint #doorstep #mobiletinting #mobilecarwash #carcare #residentialwindowtint #hometinting #homeservice
   `,

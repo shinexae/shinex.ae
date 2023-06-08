@@ -10,8 +10,7 @@
   "support": "24/7 Support",
   "services": "OUR SERVICES",
   "tinting": "TINTING",
-  "tinting_Description": "Car window films are an absolute must for every car owner. Thus improving heat reduction and giving you excellent privacy, which puts you in an independent mood and complete comfort. Tint films come in a variety of shades ranging from clear to dark and in percentages.",
-  "tinting_Button": "Tinting Pricing",
+  "tinting_Description": "Car window films are an absolute must for every car owner. Thus, it improves heat reduction and gives you excellent privacy, which makes you in an independent mood and complete comfort. The tint films come in a variety of shades ranging from transparent to dark and in multiple colors and percentages, and each quality differs from the other in features according to brands.",
   "polishing": "POLISHING",
   "polishing_Description": "It is necessary to maintain the car through the polish service, which treats the fading of the paint, adds gloss to it again, increases the overall aesthetics of the car, removes minor scratches that the vehicle body was exposed to as a result of dust and other weather factors, and gets rid of the yellowing of the car lights, which would reduce the effectiveness of the lights.",
   "polishing_Button": "Polishing Pricing",
@@ -27,7 +26,7 @@
   "Special3_btn": "BOOK NOW",
   "Mobile_Service": "MOBILE SERVICES",
   "Mobile_P1": "TINT, POLISH, WASH YOUR CAR AT YOUR DOORSTEP",
-  "Mobile_P2": "Shinex is a mobile fleet that provides high quality vehicle services to your doorstep. Requesting a mobile team is a convenient way to keep your vehicle in top condition. With us, you can specify the time and place to service your vehicle.",
+  "Mobile_P2": "Shinex is a mobile fleet that provides high quality vehicle services to your doorstep. Tinting/Polishing/Washing, Requesting a mobile team is a convenient way to keep your vehicle in top condition With us you can specify the time and place to service your vehicle.",
   "Mobile_btn": "BOOK A MOBILE SERVICE",
   "Window_Tint": "RESIDENTAL WINDOW TINTING",
   "Window_Tinth5": "BENIFETS OF TENTING YOUR HOME",
@@ -48,35 +47,27 @@
   "AboutUs_P1": "Welcome to ShineX auto care! Our mission is to provide you with the highest quality car washing and detailing services in the area. We believe that your car deserves to look its best, and we're dedicated to making that happen.",
   "AboutUs_P2": "At ShineX, we use only the best equipment and products to clean and detail your vehicle. Our team of trained professionals takes pride in their work and strives to exceed your expectations with every visit. We offer a wide range of services, from basic car washes to full detailing packages, so you can choose the level of care that's right for your vehicle.",
   "Customer_Reviews": "Customer Reviews",
-
   "Customer_Reviews_h2_1": "Excellent Service",
   "Customer_Reviews_p_1": "Most professional staff and excellent service. Tinted my Range Rover and they did an amazing job in very fast timeframe. They have wide range of products and you'll get the best advice",
   "Customer_Reviews_commenter_1": "- Yousef Alsaadi",
-
   "Customer_Reviews_h2_2": "Highly Recommend",
   "Customer_Reviews_p_2": "Greatest, most professional car care center in this area, highly recommend",
   "Customer_Reviews_commenter_2": "- Saif Alothman",
-
   "Customer_Reviews_h2_3": "Amazing And Understandable Management",
   "Customer_Reviews_p_3": "Amazing and understandable management. Top quality material, professional experienced, talented and passionate",
   "Customer_Reviews_commenter_3": "- Abduliah Al-Argawy",
-
   "Customer_Reviews_h2_4": "Very Reasonable Price",
   "Customer_Reviews_p_4": "Highly recommended. Love their services, Came for tenting and got more than i expected for a very reasonable price",
   "Customer_Reviews_commenter_4": "- Tarek Kharma",
-
   "Customer_Reviews_h2_5": "Very Professional And Neat",
   "Customer_Reviews_p_5": "I really loved how they tinted my car it was very professional and neat. The staff is very friendly and helpful. I do recommend you shinex as your tint mechanic",
   "Customer_Reviews_commenter_5": "- Tabish Vanti",
-
   "Customer_Reviews_h2_6": "High Quality",
   "Customer_Reviews_p_6": "The best service is done and the tent is high-quality big thanks to Mr. Ahmed for his care and nice attitude",
   "Customer_Reviews_commenter_6": "- Soud Ayman",
-
   "Customer_Reviews_h2_7": "Variety Of Windows Tinting",
   "Customer_Reviews_p_7": "A variety of windows tinting and paint protection is offered, but you'll have to book first",
   "Customer_Reviews_commenter_7": "- Asad Abbas",
-
   "Customer_Reviews_h2_8": "Recommend 10/10",
   "Customer_Reviews_p_8": "Recently had my car at shinex and the work they did on the car was amazing! Recommend 10/10",
   "Customer_Reviews_commenter_8": "- Eyad Sager",
