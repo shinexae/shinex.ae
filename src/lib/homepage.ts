@@ -53,7 +53,7 @@ export const polishingPackages = [
   },
   {
     title: "STEP1",
-    menu: ["box2_p1", "box2_p2", "box2_p3", "box2_p4", "box2_p5"],
+    menu: ["box2_p1", "box2_p2", "box2_p3", "box2_p4", "box2_p5", "box2_p6"],
     prices: {
       sm: 200,
       lg: 250,
@@ -208,17 +208,17 @@ export const specialServicesList: IconInterface[] = [
   {
     title: "Caravans",
     icon: "/icons/caravan.svg",
-    cta: () => {},
+    cta: () => { },
   },
   {
     title: "Boats",
     icon: "/icons/boat.svg",
-    cta: () => {},
+    cta: () => { },
   },
   {
     title: "Bikes",
     icon: "/icons/bike.svg",
-    cta: () => {},
+    cta: () => { },
   },
 ];
 
@@ -228,7 +228,7 @@ export const mobileServicesContent = {
   desciption:
     "Shinex is a mobile fleet that provides high quality vehicle services to your doorstep. Requesting a mobile team is a convenient way to keep your vehicle in top condition. With us, you can specify the time and place to service your vehicle.",
   btnText: "Book a mobile service",
-  cta: () => {},
+  cta: () => { },
 };
 
 export const aboutSection = {
