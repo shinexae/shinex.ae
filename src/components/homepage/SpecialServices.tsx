@@ -8,7 +8,7 @@ const SpecialServices = () => {
   return (
     <section>
       <h2>{t("SpecialServices")}</h2>
-      <div className='!container pt-6 md:pt-10'>
+      <div className='!container pt-6 md:pt-10 grid grid-cols-3'>
         {specialServicesList.map((elem, index) => (
           <IconElement
             key={index}
