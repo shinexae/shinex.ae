@@ -25,9 +25,9 @@ const WindowTinting = () => {
               key={index}
               {...elem}
               hStyle='text-[#fe0000]'
-              title={t(`Window_Benfits_Main` + Math.floor(index + 1))}
+              title={t(`Window_Benefits_Main` + Math.floor(index + 1))}
               description={
-                t(`Window_Benfits_P` + Math.floor(index + 1) || "") || ""
+                t(`Window_Benefits_P` + Math.floor(index + 1) || "") || ""
               }
             />
           ))}

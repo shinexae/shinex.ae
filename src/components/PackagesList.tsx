@@ -23,7 +23,10 @@ const PackagesList = ({
       <h2 id={title} className='relative text-3xl text-center mx-auto mb-6'>
         {t("title")}
       </h2>
-      <div className='relative container m-0 max-w-[initial] flex md:grid grid-cols-4 gap-8'>
+      <div
+        className={`relative container m-0 max-w-[initial] grid gap-8 ${
+          packages.length > 1 ? "!grid-cols-2" : ""
+        }`}>
         {packages.map((package_, i) => (
           <ServicePackage
             key={i}

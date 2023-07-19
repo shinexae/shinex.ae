@@ -30,7 +30,7 @@ export default CustomerReviews;
 const CustomerReview = ({ title, stars, description, author }: ReviewProps) => {
   return (
     <div className='max-w-[800px]'>
-      <h3 className='!mt-10 !capitalize !mb-5 font-bold font-serif'>{title}</h3>
+      <h3 className='!mt-10 !capitalize !mb-5 font-bold font'>{title}</h3>
       <p className='flex gap-[2px] mb-3'>
         {Array.apply(null, Array(stars)).map((star, i) => (
           <Image key={i} src='/icons/star.svg' alt='*' width={20} height={20} />

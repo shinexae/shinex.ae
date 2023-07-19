@@ -2,15 +2,15 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Layout from "@/layout";
 import "@/styles/globals.scss";
 import type { AppProps } from "next/app";
-import { Roboto } from "next/font/google";
+import { Cairo } from "next/font/google";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
 import site from "@/lib/companyInfo";
 import { appWithTranslation } from "next-i18next";
 
-const roboto = Roboto({
-  weight: ["100", "300", "400", "500", "700"],
-  subsets: ["latin"],
+const myFont = Cairo({
+  weight: ["200", "300", "400", "500", "700"],
+  subsets: ["arabic", "latin"],
 });
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <>
       <style jsx global>{`
         html {
-          font-family: ${roboto.style.fontFamily};
+          font-family: ${myFont.style.fontFamily};
         }
       `}</style>
 
@@ -124,6 +124,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name='msapplication-TileColor' content='#ffffff' />
         <meta name='msapplication-TileImage' content='/ms-icon-144x144.png' />
         <meta name='theme-color' content='#ffffff' />
+        <meta name='viewport' content='width=1024' />
       </Head>
 
       <Layout>

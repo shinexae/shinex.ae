@@ -8,7 +8,7 @@ const OurServices = () => {
   return (
     <section className='figure' id='ourServices'>
       <h2>{t("services")}</h2>
-      <div className='container !max-w-[100vw] px-2'>
+      <div className='container !max-w-[100vw] px-2 grid grid-cols-2'>
         {services.map((elem, index) => (
           <ServiceElement
             key={index}

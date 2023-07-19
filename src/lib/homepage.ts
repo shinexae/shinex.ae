@@ -158,6 +158,18 @@ export const washingPackages = [
   },
 ];
 
+export const ceramicPackages = [
+  {
+    title: "box1_h2",
+    menu: [1, 2, 3],
+
+    prices: {
+      sm: 40,
+      lg: 50,
+    },
+  },
+];
+
 export const whyUsList: IconInterface[] = [
   {
     title: "expertTeam",
@@ -202,23 +214,31 @@ export const services: ServiceInterface[] = [
     packages: washingPackages,
     url: "/washing",
   },
+  {
+    title: "ceramic",
+    description:
+      "Nano coating is the application of an additional layer on the exterior surface of a vehicle that forms a protective barrier against dust, water, oil and even dirt. nano coating even make the exterior surface of a vehicle resistant to minor scratches and make the car always shiny.",
+    image: "/images/ceramic.webp",
+    packages: ceramicPackages,
+    url: "/ceramic",
+  },
 ];
 
 export const specialServicesList: IconInterface[] = [
   {
     title: "Caravans",
     icon: "/icons/caravan.svg",
-    cta: () => { },
+    cta: () => {},
   },
   {
     title: "Boats",
     icon: "/icons/boat.svg",
-    cta: () => { },
+    cta: () => {},
   },
   {
     title: "Bikes",
     icon: "/icons/bike.svg",
-    cta: () => { },
+    cta: () => {},
   },
 ];
 
@@ -228,7 +248,7 @@ export const mobileServicesContent = {
   desciption:
     "Shinex is a mobile fleet that provides high quality vehicle services to your doorstep. Requesting a mobile team is a convenient way to keep your vehicle in top condition. With us, you can specify the time and place to service your vehicle.",
   btnText: "Book a mobile service",
-  cta: () => { },
+  cta: () => {},
 };
 
 export const aboutSection = {

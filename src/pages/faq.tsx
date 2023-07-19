@@ -37,7 +37,7 @@ const Faq = () => {
             <span
               key={i}
               onClick={() => setActiveTab(i)}
-              className={`font-bold font-sans -mb-px border-b text-xl p-4 cursor-pointer ${
+              className={`font-bold  -mb-px border-b text-xl p-4 cursor-pointer ${
                 i === activeTab
                   ? "text-primary border-current"
                   : "border-transparent hover:text-primary"

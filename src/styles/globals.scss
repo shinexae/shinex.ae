@@ -22,6 +22,7 @@
   -o-box-sizing: border-box;
   box-sizing: border-box;
   font-weight: 400;
+  font-family: Cairo;
 }
 
 html {
@@ -35,7 +36,7 @@ body {
 
 @layer base {
   section {
-    @apply p-3 md:px-4 md:py-14 lg:p-20 border-b-[2px] border-[#abababcb] mx-auto;
+    @apply px-4 py-8 border-b-[2px] border-[#abababcb] mx-auto;
   }
 
   h2,
@@ -45,7 +46,7 @@ body {
     @apply uppercase font-normal;
   }
   h2 {
-    @apply mt-4 text-primary font-extrabold font-sans mb-8 text-3xl md:text-4xl;
+    @apply mt-4 text-primary font-extrabold mb-8 text-3xl md:text-4xl;
   }
 
   h3 {
@@ -364,21 +365,21 @@ section.cont2 .content2 .colt {
   gap: 40px;
 }
 
-section.cont2 .content2 .colt .benfits {
+section.cont2 .content2 .colt .Benefits {
   text-align: center;
 }
 
-section.cont2 .content2 .colt .benfits i {
+section.cont2 .content2 .colt .Benefits i {
   font-size: 30px;
 }
 
-section.cont2 .content2 .colt .benfits h6 {
+section.cont2 .content2 .colt .Benefits h6 {
   font-size: 15px;
   margin-top: 5px;
   margin-bottom: 0;
 }
 
-section.cont2 .content2 .colt .benfits p {
+section.cont2 .content2 .colt .Benefits p {
   font-size: 10px;
 }
 
