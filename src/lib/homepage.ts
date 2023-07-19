@@ -164,8 +164,8 @@ export const ceramicPackages = [
     menu: [1, 2, 3],
 
     prices: {
-      sm: 40,
-      lg: 50,
+      sm: 1700,
+      lg: 1800,
     },
   },
 ];
