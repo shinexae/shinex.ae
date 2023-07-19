@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://shinex.ae</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/faq</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/ar/faq</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/tinting</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/ar/tinting</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/polishing</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/ar/polishing</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/washing</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/ar/washing</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://shinex.ae/ar</loc><lastmod>2023-05-09T16:12:39.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/faq</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/tinting</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/ar/tinting</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/polishing</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/ar/polishing</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/washing</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/ar/washing</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/ceramic</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/ar/ceramic</loc><lastmod>2023-07-19T13:08:07.235Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/ar/faq</loc><lastmod>2023-07-19T13:08:07.236Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://shinex.ae/ar</loc><lastmod>2023-07-19T13:08:07.236Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

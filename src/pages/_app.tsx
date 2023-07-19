@@ -11,6 +11,7 @@ import { appWithTranslation } from "next-i18next";
 const myFont = Cairo({
   weight: ["200", "300", "400", "500", "700"],
   subsets: ["arabic", "latin"],
+  variable: "--font-myFont",
 });
 
 const App = ({ Component, pageProps }: AppProps) => {
